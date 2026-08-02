@@ -1,0 +1,25 @@
+queries:
+  - id: G-1
+    operations: [exists]
+    path: '$ ? (@.repo.name == "bolividob/bibkreyol-comments-data")'
+  - id: G-2
+    operations: [exists]
+    path: '$ ? (@.payload.pull_request.base.repo.name == "winget-pkgs")'
+  - id: G-3
+    operations: [exists]
+    path: '$ ? (@.type == "PullRequestEvent" && @.payload.action == "opened")'
+  - id: G-4
+    operations: [exists]
+    path: '$ ? (@.type == "IssuesEvent" && exists(@.payload.issue.labels[*] ? (@.name == "bug")))'
+  - id: G-5
+    operations: [exists]
+    path: '$ ? (@.type == "IssuesEvent" && exists(@.payload.issue.issue_field_values[*] ? (@.issue_field_name == "Priority" && @.single_select_option.name == "High")))'
+  - id: G-6
+    operations: [exists]
+    path: '$ ? (@.type == "ReleaseEvent" && exists(@.payload.release.assets[*] ? (@.content_type == "audio/mpeg" && @.size >= 1048576 && @.uploader.type == "Bot")))'
+  - id: G-7
+    operations: [count]
+    path: '$.payload.issue.labels[*]'
+  - id: G-8
+    operations: [count]
+    path: '$.payload.release.assets[*] ? (@.content_type == "application/octet-stream")'

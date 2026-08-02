@@ -1,0 +1,31 @@
+queries:
+  - id: O-1
+    operations: [exists]
+    path: '$ ? (@.cited_by_count >= 1)'
+  - id: O-2
+    operations: [exists]
+    path: '$.primary_topic.domain.id'
+  - id: O-3
+    operations: [exists]
+    path: '$.authorships[*] ? (@.author.id != null)'
+  - id: O-4
+    operations: [exists]
+    path: '$.topics[*] ? (@.id == "https://openalex.org/T11101" && @.score >= 0.1)'
+  - id: O-5
+    operations: [exists]
+    path: '$.locations[*] ? (@.is_oa == true && @.is_published == true && @.source.is_in_doaj == true)'
+  - id: O-6
+    operations: [exists]
+    path: '$.authorships[*] ? (@.is_corresponding == true && exists(@.institutions[*] ? (@.country_code == "JP" && @.type == "facility")))'
+  - id: O-7
+    operations: [exists]
+    path: '$.authorships[*] ? (@.is_corresponding == true && exists(@.affiliations[*] ? (exists(@.institution_ids[*] ? (@ == "https://openalex.org/I4210156466")))))'
+  - id: O-8
+    operations: [exists]
+    path: '$.authorships[*] ? (@.is_corresponding == true && exists(@.institutions[*] ? (@.country_code == "JP" && @.type == "facility" && exists(@.lineage[*] ? (@ == "https://openalex.org/I4210156466")))))'
+  - id: O-9
+    operations: [count]
+    path: '$.authorships[*] ? (@.author.id != null)'
+  - id: O-10
+    operations: [count]
+    path: '$.authorships[*].institutions[*] ? (@.country_code == "JP")'

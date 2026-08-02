@@ -1,0 +1,47 @@
+{
+  "$id": "https://example.invalid/schemas/yelp-review-numeric.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "business_id": {
+      "type": "string"
+    },
+    "cool": {
+      "type": "numeric"
+    },
+    "date": {
+      "type": "string"
+    },
+    "funny": {
+      "type": "numeric"
+    },
+    "review_id": {
+      "type": "string"
+    },
+    "stars": {
+      "type": "numeric"
+    },
+    "text": {
+      "type": "string"
+    },
+    "useful": {
+      "type": "numeric"
+    },
+    "user_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "business_id",
+    "cool",
+    "date",
+    "funny",
+    "review_id",
+    "stars",
+    "text",
+    "useful",
+    "user_id"
+  ],
+  "title": "Yelp review",
+  "type": "object"
+}

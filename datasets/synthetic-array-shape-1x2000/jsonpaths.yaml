@@ -1,0 +1,7 @@
+queries:
+  - id: full-filter
+    operations: [exists]
+    path: '$.target[*][*] ? (@ >= 500000000000.0)'
+  - id: count-all
+    operations: [count]
+    path: '$.target[*][*]'

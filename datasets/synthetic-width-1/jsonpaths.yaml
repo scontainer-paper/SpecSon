@@ -1,0 +1,4 @@
+queries:
+  - id: middle-field
+    operations: [exists]
+    path: '$.target.field_000 ? (@ >= 500000000000.0)'

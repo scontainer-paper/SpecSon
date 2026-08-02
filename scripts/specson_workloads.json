@@ -1,0 +1,69 @@
+{
+  "format": "specson_experiment_workloads_v3",
+  "dataset_root": "~/specson/datasets",
+  "seed": 20260801,
+  "dataset_identities": {
+    "yelp-review": {"id": 1, "name": "Yelp-Review"},
+    "yelp-business": {"id": 2, "name": "Yelp-Business"},
+    "github": {"id": 3, "name": "GitHub"},
+    "openalex": {"id": 4, "name": "OpenAlex"},
+    "synthetic-width-1": {"id": 201, "name": "Synthetic-Width-1"},
+    "synthetic-rank-4": {"id": 304, "name": "Synthetic-Rank-4"},
+    "synthetic-array-shape-1x2000": {"id": 501, "name": "Synthetic-Array-Shape-1x2000"},
+    "synthetic-array-shape-2000x1": {"id": 504, "name": "Synthetic-Array-Shape-2000x1"}
+  },
+  "synthetic_schema_id_base": 70000,
+  "synthetic_schema_variants": ["numeric"],
+  "expected_synthetic_datasets": 4,
+  "real_datasets": {
+    "yelp-review": {
+      "label": "Yelp Review",
+      "schemas": {
+        "ordinary": "yelp-review/yelp-review.schema.json",
+        "numeric": "yelp-review/yelp-review-numeric.schema.json"
+      },
+      "schema_ids": {"ordinary": 61001, "numeric": 62001},
+      "queries": "yelp-review/jsonpaths.yaml",
+      "inputs": ["yelp-review/yelp_academic_dataset_review.jsonl"],
+      "expected_rows": 6990280
+    },
+    "yelp-business": {
+      "label": "Yelp Business",
+      "schemas": {
+        "ordinary": "yelp-business/yelp-business.schema.json",
+        "numeric": "yelp-business/yelp-business-numeric.schema.json"
+      },
+      "schema_ids": {"ordinary": 61002, "numeric": 62002},
+      "queries": "yelp-business/jsonpaths.yaml",
+      "inputs": ["yelp-business/yelp_academic_dataset_business.jsonl"],
+      "expected_rows": 150346
+    },
+    "github": {
+      "label": "GitHub Archive",
+      "schemas": {
+        "ordinary": "github/github-archive-event.specson-scfinal.schema.json",
+        "numeric": "github/github-archive-event.specson-scfinal-numeric.schema.json"
+      },
+      "schema_ids": {"ordinary": 61003, "numeric": 62003},
+      "queries": "github/jsonpaths.yaml",
+      "inputs": ["github/2026-06-26-*.jsonl"],
+      "expected_rows": 3795000
+    },
+    "openalex": {
+      "label": "OpenAlex Works",
+      "schemas": {
+        "ordinary": "openalex/openalex-work.schema.json",
+        "numeric": "openalex/openalex-work-numeric.schema.json"
+      },
+      "schema_ids": {"ordinary": 61004, "numeric": 62004},
+      "queries": "openalex/jsonpaths.yaml",
+      "inputs": ["openalex/2026-06-26-part-0000.jsonl"],
+      "expected_rows": 358387
+    }
+  },
+  "preparation_queries": [
+    {"dataset": "yelp-review", "id": "YR-1", "operation": "exists"},
+    {"dataset": "github", "id": "G-5", "operation": "exists"},
+    {"dataset": "openalex", "id": "O-8", "operation": "exists"}
+  ]
+}

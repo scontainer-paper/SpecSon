@@ -1,0 +1,39 @@
+{
+  "$id": "https://example.invalid/schemas/synthetic-array-shape-1x2000-numeric.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "numeric"
+    },
+    "target": {
+      "items": {
+        "items": {
+          "type": [
+            "numeric",
+            "null"
+          ]
+        },
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "type": [
+        "array",
+        "null"
+      ]
+    }
+  },
+  "title": "SpecSON VLDB controlled schema: synthetic-array-shape-1x2000 (numeric)",
+  "type": "object",
+  "x-vldb-20260801": {
+    "family": "array-shape",
+    "leafCount": 2000,
+    "rank": 2,
+    "shape": [
+      1,
+      2000
+    ]
+  }
+}

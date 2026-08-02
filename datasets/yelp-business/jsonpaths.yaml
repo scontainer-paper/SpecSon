@@ -1,0 +1,13 @@
+queries:
+  - id: YB-1
+    operations: [exists]
+    path: '$ ? (@.is_open == 1)'
+  - id: YB-2
+    operations: [exists]
+    path: '$ ? (@.attributes.RestaurantsTakeOut == "True" && exists(@.hours.Saturday))'
+  - id: YB-3
+    operations: [exists]
+    path: '$ ? (@.stars >= 4.0 && @.review_count >= 100 && @.is_open == 1 && exists(@.categories))'
+  - id: YB-4
+    operations: [exists]
+    path: '$ ? (@.is_open == 1 && @.stars >= 4.0 && @.attributes.RestaurantsTakeOut == "True" && exists(@.hours.Saturday))'

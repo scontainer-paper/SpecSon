@@ -1,0 +1,13 @@
+queries:
+  - id: YR-1
+    operations: [exists]
+    path: '$ ? (@.stars == 5.0)'
+  - id: YR-2
+    operations: [exists]
+    path: '$ ? (@.stars >= 4.0)'
+  - id: YR-3
+    operations: [exists]
+    path: '$ ? (@.stars >= 4.0 && @.useful >= 1)'
+  - id: YR-4
+    operations: [exists]
+    path: '$ ? (@.date >= "2019-01-01 00:00:00" && @.date < "2020-01-01 00:00:00" && @.stars >= 4.0)'

@@ -1,0 +1,13 @@
+{
+  "dataset": "synthetic-rank-4",
+  "effective_seed": 15141828948700084411,
+  "format": "specson-vldb-synthetic-data-v2",
+  "generator": "generate.py",
+  "output": "data.jsonl",
+  "rows": 10000,
+  "schemas": [
+    "schema-numeric.json"
+  ],
+  "seed": 20260801,
+  "workers": 1
+}

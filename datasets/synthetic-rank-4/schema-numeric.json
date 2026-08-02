@@ -1,0 +1,46 @@
+{
+  "$id": "https://example.invalid/schemas/synthetic-rank-4-numeric.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "numeric"
+    },
+    "target": {
+      "items": {
+        "items": {
+          "items": {
+            "items": {
+              "type": [
+                "numeric",
+                "null"
+              ]
+            },
+            "type": [
+              "array",
+              "null"
+            ]
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "type": [
+        "array",
+        "null"
+      ]
+    }
+  },
+  "title": "SpecSON VLDB controlled schema: synthetic-rank-4 (numeric)",
+  "type": "object",
+  "x-vldb-20260731": {
+    "family": "rank",
+    "rank": 4
+  }
+}

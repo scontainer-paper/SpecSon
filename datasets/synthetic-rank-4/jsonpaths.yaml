@@ -1,0 +1,7 @@
+queries:
+  - id: point-first
+    operations: [exists]
+    path: '$.target[0][0][0][0] ? (@ >= 500000000000.0)'
+  - id: count-all
+    operations: [count]
+    path: '$.target[*][*][*][*]'

@@ -1,0 +1,32 @@
+{
+  "$id": "https://example.invalid/schemas/synthetic-width-1-numeric.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "numeric"
+    },
+    "target": {
+      "additionalProperties": false,
+      "properties": {
+        "field_000": {
+          "type": [
+            "numeric",
+            "null"
+          ]
+        }
+      },
+      "type": [
+        "object",
+        "null"
+      ]
+    }
+  },
+  "title": "SpecSON VLDB controlled schema: synthetic-width-1 (numeric)",
+  "type": "object",
+  "x-vldb-20260731": {
+    "dataPresence": "all-declared-fields-present",
+    "declaredFields": 1,
+    "family": "object-width"
+  }
+}
