@@ -54,6 +54,12 @@ yet; we plan to provide them in future releases.
 > and features such as regular-expression matching are not supported yet. We
 > are actively developing a more complete extension whose JSONPath behavior
 > fully conforms to PostgreSQL.
+>
+> The current implementation still has substantial room for optimization and
+> should not be interpreted as SpecSon's performance ceiling. We are actively
+> improving its performance and will publish those improvements as new
+> releases. The exact baseline release used for the results reported in the
+> paper will remain permanently available and unchanged for reproducibility.
 
 ## Install the PostgreSQL extension
 
