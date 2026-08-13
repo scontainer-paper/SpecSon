@@ -55,10 +55,10 @@ yet; we plan to provide them in future releases.
 > are actively developing a more complete extension whose JSONPath behavior
 > fully conforms to PostgreSQL.
 >
-> The current implementation still has substantial room for optimization and
-> should not be interpreted as SpecSon's performance ceiling. We are actively
-> improving its performance and will publish those improvements as new
-> releases. The exact baseline release used for the results reported in the
+> **UPDATE (08/13/2026):** In the coming days, we will release a substantially
+> more complete query executor. It delivers better performance than the version
+> reported in the paper, supports a broader range of JSONPath queries, and
+> preserves PostgreSQL's lax semantics. The exact baseline release used for the
 > paper will remain permanently available and unchanged for reproducibility.
 
 ## Install the PostgreSQL extension
