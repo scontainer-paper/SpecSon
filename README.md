@@ -1,5 +1,12 @@
 # SpecSon PostgreSQL experiment bundle
 
+> [!IMPORTANT]
+> **UPDATE (08/13/2026):** In the coming days, we will release a substantially
+> more complete query executor. It delivers better performance than the version
+> reported in the paper, supports a broader range of JSONPath queries, and
+> preserves PostgreSQL's lax semantics. The exact baseline release used for the
+> paper will remain permanently available and unchanged for reproducibility.
+
 This directory contains the current SpecSon PostgreSQL release artifact, the
 formal experiment harness, the experiment schemas and JSONPaths, and the four
 canonical synthetic-data generators. The dataset files are distributed
@@ -54,12 +61,6 @@ yet; we plan to provide them in future releases.
 > and features such as regular-expression matching are not supported yet. We
 > are actively developing a more complete extension whose JSONPath behavior
 > fully conforms to PostgreSQL.
->
-> **UPDATE (08/13/2026):** In the coming days, we will release a substantially
-> more complete query executor. It delivers better performance than the version
-> reported in the paper, supports a broader range of JSONPath queries, and
-> preserves PostgreSQL's lax semantics. The exact baseline release used for the
-> paper will remain permanently available and unchanged for reproducibility.
 
 ## Install the PostgreSQL extension
 
