@@ -93,3 +93,8 @@ RETURNS boolean
 AS 'MODULE_PATHNAME', 'specson_query_exists_unplanned_wrapper'
 LANGUAGE C VOLATILE STRICT PARALLEL UNSAFE
 SUPPORT specson_query_support;
+
+CREATE FUNCTION specson_query_items(bigint, specson, text)
+RETURNS text
+AS 'MODULE_PATHNAME', 'specson_query_items_wrapper'
+LANGUAGE C VOLATILE STRICT PARALLEL UNSAFE;
