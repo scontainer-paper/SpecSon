@@ -1,11 +1,10 @@
 # SpecSon PostgreSQL experiment bundle
 
 > [!IMPORTANT]
-> **UPDATE (08/13/2026):** In the coming days, we will release a substantially
-> more complete query executor. It delivers better performance than the version
-> reported in the paper, supports a broader range of JSONPath queries, and
-> preserves PostgreSQL's lax semantics. The exact baseline release used for the
-> paper will remain permanently available and unchanged for reproducibility.
+> **UPDATE (08/20/2026):** We have released a new version of the SpecSon plugin
+> on the `extended` branch. Compared with the results reported in the paper,
+> this version delivers up to about 1.5× higher performance and provides full
+> support for PostgreSQL's lax semantics.
 
 This directory contains the current SpecSon PostgreSQL release artifact, the
 formal experiment harness, the experiment schemas and JSONPaths, and the four
