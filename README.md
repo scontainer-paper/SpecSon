@@ -58,8 +58,8 @@ yet; we plan to provide them in future releases.
 > optimizer and executor are incomplete, JSONPaths with different structural
 > shapes may not be optimized and may not execute at all. Many other operators
 > and features such as regular-expression matching are not supported yet. We
-> are actively developing a more complete extension whose JSONPath behavior
-> fully conforms to PostgreSQL.
+> **UPDATE (08/20/2026):** Please use the plugin from the `extended` branch to
+> run a broader range of JSONPath queries.
 
 ## Install the PostgreSQL extension
 
