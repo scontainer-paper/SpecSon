@@ -57,7 +57,7 @@ yet; we plan to provide them in future releases.
 > bundled test JSONPaths. Because this prototype is still rudimentary and its
 > optimizer and executor are incomplete, JSONPaths with different structural
 > shapes may not be optimized and may not execute at all. Many other operators
-> and features such as regular-expression matching are not supported yet. We
+> and features such as regular-expression matching are not supported yet.
 > **UPDATE (08/20/2026):** Please use the plugin from the `extended` branch to
 > run a broader range of JSONPath queries.
 
