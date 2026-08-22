@@ -53,11 +53,12 @@ yet; we plan to provide them in future releases.
 > loss. Use only an isolated, disposable experiment instance, with independent
 > backups, at your own risk.
 >
-> We recommend experimenting by changing field names and literal values in the
+> ~~We recommend experimenting by changing field names and literal values in the
 > bundled test JSONPaths. Because this prototype is still rudimentary and its
 > optimizer and executor are incomplete, JSONPaths with different structural
 > shapes may not be optimized and may not execute at all. Many other operators
-> and features such as regular-expression matching are not supported yet.
+> and features such as regular-expression matching are not supported yet.~~
+>
 > **UPDATE (08/20/2026):** Please use the plugin from the `extended` branch to
 > run a broader range of JSONPath queries.
 
