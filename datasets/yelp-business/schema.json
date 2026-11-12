@@ -1,0 +1,220 @@
+{
+  "$id": "https://example.invalid/schemas/yelp-business.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "address": {
+      "type": "string"
+    },
+    "attributes": {
+      "additionalProperties": false,
+      "properties": {
+        "AcceptsInsurance": {
+          "type": "string"
+        },
+        "AgesAllowed": {
+          "type": "string"
+        },
+        "Alcohol": {
+          "type": "string"
+        },
+        "Ambience": {
+          "type": "string"
+        },
+        "BYOB": {
+          "type": "string"
+        },
+        "BYOBCorkage": {
+          "type": "string"
+        },
+        "BestNights": {
+          "type": "string"
+        },
+        "BikeParking": {
+          "type": "string"
+        },
+        "BusinessAcceptsBitcoin": {
+          "type": "string"
+        },
+        "BusinessAcceptsCreditCards": {
+          "type": "string"
+        },
+        "BusinessParking": {
+          "type": "string"
+        },
+        "ByAppointmentOnly": {
+          "type": "string"
+        },
+        "Caters": {
+          "type": "string"
+        },
+        "CoatCheck": {
+          "type": "string"
+        },
+        "Corkage": {
+          "type": "string"
+        },
+        "DietaryRestrictions": {
+          "type": "string"
+        },
+        "DogsAllowed": {
+          "type": "string"
+        },
+        "DriveThru": {
+          "type": "string"
+        },
+        "GoodForDancing": {
+          "type": "string"
+        },
+        "GoodForKids": {
+          "type": "string"
+        },
+        "GoodForMeal": {
+          "type": "string"
+        },
+        "HairSpecializesIn": {
+          "type": "string"
+        },
+        "HappyHour": {
+          "type": "string"
+        },
+        "HasTV": {
+          "type": "string"
+        },
+        "Music": {
+          "type": "string"
+        },
+        "NoiseLevel": {
+          "type": "string"
+        },
+        "Open24Hours": {
+          "type": "string"
+        },
+        "OutdoorSeating": {
+          "type": "string"
+        },
+        "RestaurantsAttire": {
+          "type": "string"
+        },
+        "RestaurantsCounterService": {
+          "type": "string"
+        },
+        "RestaurantsDelivery": {
+          "type": "string"
+        },
+        "RestaurantsGoodForGroups": {
+          "type": "string"
+        },
+        "RestaurantsPriceRange2": {
+          "type": "string"
+        },
+        "RestaurantsReservations": {
+          "type": "string"
+        },
+        "RestaurantsTableService": {
+          "type": "string"
+        },
+        "RestaurantsTakeOut": {
+          "type": "string"
+        },
+        "Smoking": {
+          "type": "string"
+        },
+        "WheelchairAccessible": {
+          "type": "string"
+        },
+        "WiFi": {
+          "type": "string"
+        }
+      },
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "business_id": {
+      "type": "string"
+    },
+    "categories": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "city": {
+      "type": "string"
+    },
+    "hours": {
+      "additionalProperties": false,
+      "properties": {
+        "Friday": {
+          "type": "string"
+        },
+        "Monday": {
+          "type": "string"
+        },
+        "Saturday": {
+          "type": "string"
+        },
+        "Sunday": {
+          "type": "string"
+        },
+        "Thursday": {
+          "type": "string"
+        },
+        "Tuesday": {
+          "type": "string"
+        },
+        "Wednesday": {
+          "type": "string"
+        }
+      },
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "is_open": {
+      "type": "integer"
+    },
+    "latitude": {
+      "type": "number"
+    },
+    "longitude": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "postal_code": {
+      "type": "string"
+    },
+    "review_count": {
+      "type": "integer"
+    },
+    "stars": {
+      "type": "number"
+    },
+    "state": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "address",
+    "attributes",
+    "business_id",
+    "categories",
+    "city",
+    "hours",
+    "is_open",
+    "latitude",
+    "longitude",
+    "name",
+    "postal_code",
+    "review_count",
+    "stars",
+    "state"
+  ],
+  "title": "Yelp business",
+  "type": "object"
+}

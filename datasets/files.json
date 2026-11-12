@@ -1,0 +1,142 @@
+[
+  {
+    "path": "github/data/2026-06-26-0.jsonl",
+    "bytes": 114253421
+  },
+  {
+    "path": "github/data/2026-06-26-1.jsonl",
+    "bytes": 107097838
+  },
+  {
+    "path": "github/data/2026-06-26-10.jsonl",
+    "bytes": 104736198
+  },
+  {
+    "path": "github/data/2026-06-26-11.jsonl",
+    "bytes": 103745233
+  },
+  {
+    "path": "github/data/2026-06-26-12.jsonl",
+    "bytes": 107502319
+  },
+  {
+    "path": "github/data/2026-06-26-13.jsonl",
+    "bytes": 106447387
+  },
+  {
+    "path": "github/data/2026-06-26-14.jsonl",
+    "bytes": 105528474
+  },
+  {
+    "path": "github/data/2026-06-26-15.jsonl",
+    "bytes": 103303500
+  },
+  {
+    "path": "github/data/2026-06-26-16.jsonl",
+    "bytes": 104886992
+  },
+  {
+    "path": "github/data/2026-06-26-17.jsonl",
+    "bytes": 107020194
+  },
+  {
+    "path": "github/data/2026-06-26-18.jsonl",
+    "bytes": 108703910
+  },
+  {
+    "path": "github/data/2026-06-26-19.jsonl",
+    "bytes": 107785199
+  },
+  {
+    "path": "github/data/2026-06-26-2.jsonl",
+    "bytes": 111784459
+  },
+  {
+    "path": "github/data/2026-06-26-20.jsonl",
+    "bytes": 113649917
+  },
+  {
+    "path": "github/data/2026-06-26-21.jsonl",
+    "bytes": 119902851
+  },
+  {
+    "path": "github/data/2026-06-26-22.jsonl",
+    "bytes": 136809627
+  },
+  {
+    "path": "github/data/2026-06-26-23.jsonl",
+    "bytes": 152007622
+  },
+  {
+    "path": "github/data/2026-06-26-3.jsonl",
+    "bytes": 113922466
+  },
+  {
+    "path": "github/data/2026-06-26-4.jsonl",
+    "bytes": 113358193
+  },
+  {
+    "path": "github/data/2026-06-26-5.jsonl",
+    "bytes": 120410248
+  },
+  {
+    "path": "github/data/2026-06-26-6.jsonl",
+    "bytes": 110885248
+  },
+  {
+    "path": "github/data/2026-06-26-7.jsonl",
+    "bytes": 106986504
+  },
+  {
+    "path": "github/data/2026-06-26-8.jsonl",
+    "bytes": 102011160
+  },
+  {
+    "path": "github/data/2026-06-26-9.jsonl",
+    "bytes": 103237405
+  },
+  {
+    "path": "github/schema.json",
+    "bytes": 282958
+  },
+  {
+    "path": "openalex/data/2026-06-26-part-0000.jsonl",
+    "bytes": 4338034666
+  },
+  {
+    "path": "openalex/schema.json",
+    "bytes": 37785
+  },
+  {
+    "path": "synthetic/manifest.json",
+    "bytes": 554
+  },
+  {
+    "path": "synthetic/mixed.jsonl",
+    "bytes": 84918593
+  },
+  {
+    "path": "synthetic/schemas.jsonl",
+    "bytes": 9787100000
+  },
+  {
+    "path": "tpch/data/orders.jsonl",
+    "bytes": 8022089665
+  },
+  {
+    "path": "tpch/schema.json",
+    "bytes": 8213
+  },
+  {
+    "path": "twitter/schema.json",
+    "bytes": 194710
+  },
+  {
+    "path": "yelp-business/data/yelp_academic_dataset_business.jsonl",
+    "bytes": 118863795
+  },
+  {
+    "path": "yelp-business/schema.json",
+    "bytes": 4353
+  }
+]

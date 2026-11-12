@@ -1,0 +1,327 @@
+{
+  "type": "object",
+  "properties": {
+    "clerk": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "string"
+    },
+    "customer": {
+      "type": "object",
+      "properties": {
+        "acctbal": {
+          "type": "numeric"
+        },
+        "address": {
+          "type": "string"
+        },
+        "comment": {
+          "type": "string"
+        },
+        "custkey": {
+          "type": "integer"
+        },
+        "mktsegment": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "nation": {
+          "type": "object",
+          "properties": {
+            "comment": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "nationkey": {
+              "type": "integer"
+            },
+            "region": {
+              "type": "object",
+              "properties": {
+                "comment": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "regionkey": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "comment",
+                "name",
+                "regionkey"
+              ],
+              "additionalProperties": true
+            }
+          },
+          "required": [
+            "comment",
+            "name",
+            "nationkey",
+            "region"
+          ],
+          "additionalProperties": true
+        },
+        "phone": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "acctbal",
+        "address",
+        "comment",
+        "custkey",
+        "mktsegment",
+        "name",
+        "nation",
+        "phone"
+      ],
+      "additionalProperties": true
+    },
+    "lineitems": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "comment": {
+            "type": "string"
+          },
+          "commitdate": {
+            "type": "string"
+          },
+          "discount": {
+            "type": "numeric"
+          },
+          "extendedprice": {
+            "type": "numeric"
+          },
+          "linenumber": {
+            "type": "integer"
+          },
+          "linestatus": {
+            "type": "string"
+          },
+          "partsupp": {
+            "type": "object",
+            "properties": {
+              "availqty": {
+                "type": "integer"
+              },
+              "comment": {
+                "type": "string"
+              },
+              "part": {
+                "type": "object",
+                "properties": {
+                  "brand": {
+                    "type": "string"
+                  },
+                  "comment": {
+                    "type": "string"
+                  },
+                  "container": {
+                    "type": "string"
+                  },
+                  "mfgr": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "partkey": {
+                    "type": "integer"
+                  },
+                  "retailprice": {
+                    "type": "numeric"
+                  },
+                  "size": {
+                    "type": "integer"
+                  },
+                  "type": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "brand",
+                  "comment",
+                  "container",
+                  "mfgr",
+                  "name",
+                  "partkey",
+                  "retailprice",
+                  "size",
+                  "type"
+                ],
+                "additionalProperties": true
+              },
+              "supplier": {
+                "type": "object",
+                "properties": {
+                  "acctbal": {
+                    "type": "numeric"
+                  },
+                  "address": {
+                    "type": "string"
+                  },
+                  "comment": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "nation": {
+                    "type": "object",
+                    "properties": {
+                      "comment": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "nationkey": {
+                        "type": "integer"
+                      },
+                      "region": {
+                        "type": "object",
+                        "properties": {
+                          "comment": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "regionkey": {
+                            "type": "integer"
+                          }
+                        },
+                        "required": [
+                          "comment",
+                          "name",
+                          "regionkey"
+                        ],
+                        "additionalProperties": true
+                      }
+                    },
+                    "required": [
+                      "comment",
+                      "name",
+                      "nationkey",
+                      "region"
+                    ],
+                    "additionalProperties": true
+                  },
+                  "phone": {
+                    "type": "string"
+                  },
+                  "suppkey": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "acctbal",
+                  "address",
+                  "comment",
+                  "name",
+                  "nation",
+                  "phone",
+                  "suppkey"
+                ],
+                "additionalProperties": true
+              },
+              "supplycost": {
+                "type": "numeric"
+              }
+            },
+            "required": [
+              "availqty",
+              "comment",
+              "part",
+              "supplier",
+              "supplycost"
+            ],
+            "additionalProperties": true
+          },
+          "quantity": {
+            "type": "integer"
+          },
+          "receiptdate": {
+            "type": "string"
+          },
+          "returnflag": {
+            "type": "string"
+          },
+          "shipdate": {
+            "type": "string"
+          },
+          "shipinstruct": {
+            "type": "string"
+          },
+          "shipmode": {
+            "type": "string"
+          },
+          "tax": {
+            "type": "numeric"
+          }
+        },
+        "required": [
+          "comment",
+          "commitdate",
+          "discount",
+          "extendedprice",
+          "linenumber",
+          "linestatus",
+          "partsupp",
+          "quantity",
+          "receiptdate",
+          "returnflag",
+          "shipdate",
+          "shipinstruct",
+          "shipmode",
+          "tax"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "orderdate": {
+      "type": "string"
+    },
+    "orderkey": {
+      "type": "integer"
+    },
+    "orderpriority": {
+      "type": "string"
+    },
+    "orderstatus": {
+      "type": "string"
+    },
+    "shippriority": {
+      "type": "integer"
+    },
+    "totalprice": {
+      "type": "numeric"
+    }
+  },
+  "required": [
+    "clerk",
+    "comment",
+    "customer",
+    "lineitems",
+    "orderdate",
+    "orderkey",
+    "orderpriority",
+    "orderstatus",
+    "shippriority",
+    "totalprice"
+  ],
+  "additionalProperties": true,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TPC-H SF1 nested orders",
+  "$comment": "Observed over all orders. JSONL decimal spelling is unchanged; tpch-numeric.schema.json binds decimal fields to exact Numeric."
+}

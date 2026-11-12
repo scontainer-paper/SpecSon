@@ -1,0 +1,11 @@
+datasets/*/data/
+datasets/synthetic/*.jsonl
+datasets.tar.gz
+image/*.tar.gz
+image/*.tar
+!image/specson-pg-18.6-release.tar.gz
+experiments/runtime/
+results/runs/
+__pycache__/
+*.pyc
+.venv/

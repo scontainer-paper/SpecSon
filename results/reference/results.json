@@ -1,0 +1,5999 @@
+{
+  "format_version": 2,
+  "status": "ok",
+  "finalized_date": "2026-11-10",
+  "single": {
+    "measurements": {
+      "status": "ok",
+      "results": [
+        {
+          "dataset": "github",
+          "rows": 3795000,
+          "import_seconds": {
+            "specson": 9.401529596,
+            "pg": 15.793478778999999,
+            "umbra": 13.718141269,
+            "clickhouse": 118.484961148,
+            "mongodb": 24.121649438,
+            "asterix": 30.71932702,
+            "specson-toast": 8.069027669
+          },
+          "restore_seconds": {
+            "specson": 4.990019674,
+            "pg": 5.293609013999999,
+            "umbra": 5.777941659,
+            "clickhouse": 545.926600476,
+            "mongodb": 39.11339052,
+            "asterix": 45.803135572,
+            "specson-toast": 5.0700085040000005
+          },
+          "storage_bytes": {
+            "specson": 2027028480,
+            "pg": 3137290240,
+            "umbra": 2368516096,
+            "clickhouse": 908768710,
+            "mongodb": 1141448704,
+            "asterix": 1182276298,
+            "specson-toast": 2024095744
+          },
+          "schema_registration_seconds": 0.003308157,
+          "gin_build_seconds": 54.544682632999994,
+          "gin_index_bytes": 1174904832
+        },
+        {
+          "dataset": "yelp-business",
+          "rows": 150346,
+          "import_seconds": {
+            "specson": 0.383148899,
+            "pg": 0.854617929,
+            "umbra": 0.6629598290000001,
+            "clickhouse": 0.9513734779999999,
+            "mongodb": 1.0772107000000002,
+            "asterix": 3.885334794,
+            "specson-toast": 0.367452766
+          },
+          "restore_seconds": {
+            "specson": 0.244290481,
+            "pg": 0.24744529399999998,
+            "umbra": 0.29433696,
+            "clickhouse": 1.312677481,
+            "mongodb": 1.843840828,
+            "asterix": 2.431631235,
+            "specson-toast": 0.254992709
+          },
+          "storage_bytes": {
+            "specson": 76267520,
+            "pg": 148054016,
+            "umbra": 108367872,
+            "clickhouse": 26798179,
+            "mongodb": 51798016,
+            "asterix": 60697629,
+            "specson-toast": 76275712
+          },
+          "schema_registration_seconds": 0.000824725,
+          "gin_build_seconds": 1.524470387,
+          "gin_index_bytes": 53870592
+        },
+        {
+          "dataset": "twitter",
+          "rows": 5220246,
+          "import_seconds": {
+            "specson": 94.04200311400001,
+            "pg": 168.034109157,
+            "umbra": 121.20686485,
+            "clickhouse": 241.439014914,
+            "mongodb": 178.470376496,
+            "asterix": 279.702139326,
+            "specson-toast": 95.120611743
+          },
+          "restore_seconds": {
+            "specson": 41.720522149999994,
+            "pg": 61.781740096,
+            "umbra": 63.292955608999996,
+            "clickhouse": 423.464749845,
+            "mongodb": 381.0553166,
+            "asterix": 534.980866376,
+            "specson-toast": 40.15712781
+          },
+          "storage_bytes": {
+            "specson": 9723568128,
+            "pg": 15549513728,
+            "umbra": 25064796160,
+            "clickhouse": 6525970679,
+            "mongodb": 7790886912,
+            "asterix": 11425459917,
+            "specson-toast": 9747890176
+          },
+          "schema_registration_seconds": 0.002008241,
+          "gin_build_seconds": 571.261792269,
+          "gin_index_bytes": 6754238464
+        },
+        {
+          "dataset": "tpch",
+          "rows": 1500000,
+          "import_seconds": {
+            "specson": 26.753572413,
+            "pg": 51.626047559999996,
+            "umbra": 29.462284896,
+            "clickhouse": 36.132561383,
+            "mongodb": 49.551600922999995,
+            "asterix": 73.857974002,
+            "specson-toast": 25.996140793
+          },
+          "restore_seconds": {
+            "specson": 11.909847989,
+            "pg": 15.986576964,
+            "umbra": 19.396976581,
+            "clickhouse": 45.559396428,
+            "mongodb": 119.431868503,
+            "asterix": 138.819084535,
+            "specson-toast": 12.987184805
+          },
+          "storage_bytes": {
+            "specson": 4260610048,
+            "pg": 5446246400,
+            "umbra": 7318945792,
+            "clickhouse": 1693163640,
+            "mongodb": 3409776640,
+            "asterix": 3559014007,
+            "specson-toast": 4097540096
+          },
+          "schema_registration_seconds": 0.000616555,
+          "gin_build_seconds": 129.494675487,
+          "gin_index_bytes": 1212219392
+        },
+        {
+          "dataset": "openalex",
+          "rows": 358387,
+          "import_seconds": {
+            "specson": 11.957570045,
+            "pg": 26.572386714,
+            "umbra": 15.964998587,
+            "clickhouse": 91.904371643,
+            "mongodb": 24.394426921999997,
+            "asterix": 60.592694286,
+            "specson-toast": 11.816443177
+          },
+          "restore_seconds": {
+            "specson": 5.084804802,
+            "pg": 8.400611843999998,
+            "umbra": 10.902355532,
+            "clickhouse": 70.585218429,
+            "mongodb": 63.025575882999995,
+            "asterix": 86.474177358,
+            "specson-toast": 5.851317773
+          },
+          "storage_bytes": {
+            "specson": 1424089088,
+            "pg": 1938284544,
+            "umbra": 3880513536,
+            "clickhouse": 655673456,
+            "mongodb": 1330872320,
+            "asterix": 1847912224,
+            "specson-toast": 1366114304
+          },
+          "schema_registration_seconds": 0.00096132,
+          "gin_build_seconds": 70.811708489,
+          "gin_index_bytes": 1095467008
+        }
+      ],
+      "summary": {
+        "import_seconds": {
+          "specson": 142.537824067,
+          "pg": 262.880640139,
+          "umbra": 181.015249431,
+          "clickhouse": 488.912282566,
+          "mongodb": 277.615264479,
+          "asterix": 448.75746942800004,
+          "specson-toast": 141.369676148
+        },
+        "restore_seconds": {
+          "specson": 63.94948509599999,
+          "pg": 91.709983212,
+          "umbra": 99.664566341,
+          "clickhouse": 1086.848642659,
+          "mongodb": 604.469992334,
+          "asterix": 808.508895076,
+          "specson-toast": 64.320631601
+        },
+        "storage_bytes": {
+          "specson": 17511563264,
+          "pg": 26219388928,
+          "umbra": 38741139456,
+          "clickhouse": 9810374664,
+          "mongodb": 13724782592,
+          "asterix": 18075360075,
+          "specson-toast": 17311916032
+        },
+        "schema_registration_seconds": 0.0077189979999999995,
+        "gin_build_seconds": 827.637329265,
+        "gin_index_bytes": 10290700288,
+        "shared_schema_store_bytes": 188416
+      },
+      "scope": "Five real single-schema datasets; original SpecSon Twitter import excluded in favor of clean reimport. Storage uses each engine native dataset allocation. GIN build and schema registration reported separately.",
+      "storage_measurement": {
+        "replaced_at": "2026-11-08T18:11:19.085104+08:00",
+        "scope": "Native dataset storage including required indexes and document external storage; pg excludes measured GIN forks, pg-gin includes them when present. SpecSON and SpecSON-TOAST share schema storage, counted once separately."
+      },
+      "native_toast_shared_schema_store_bytes": 294912
+    },
+    "queries": {
+      "status": "ok",
+      "baseline": "specson",
+      "queries": 68,
+      "all_results_match": true,
+      "summary": {
+        "specson": {
+          "sum_medians_ms": 24290.092475,
+          "geometric_mean_ratio": 1.0,
+          "baseline_faster": 0
+        },
+        "pg": {
+          "sum_medians_ms": 127252.570357,
+          "geometric_mean_ratio": 3.777858895555405,
+          "baseline_faster": 68
+        },
+        "pg-gin": {
+          "sum_medians_ms": 88673.88797,
+          "geometric_mean_ratio": 0.9448854022123007,
+          "baseline_faster": 43
+        },
+        "mongodb": {
+          "sum_medians_ms": 157156.809339,
+          "geometric_mean_ratio": 5.1683917823608025,
+          "baseline_faster": 68
+        },
+        "asterix": {
+          "sum_medians_ms": 203696.654913,
+          "geometric_mean_ratio": 5.2843532890400855,
+          "baseline_faster": 68
+        },
+        "umbra": {
+          "sum_medians_ms": 131216.927498,
+          "geometric_mean_ratio": 1.2303438836441096,
+          "baseline_faster": 26
+        },
+        "clickhouse": {
+          "sum_medians_ms": 5642.217825,
+          "geometric_mean_ratio": 0.1656264720527324,
+          "baseline_faster": 0
+        },
+        "specson-toast": {
+          "sum_medians_ms": 43746.17777,
+          "geometric_mean_ratio": 1.7233723301404358,
+          "baseline_faster": 67
+        }
+      },
+      "results": [
+        {
+          "dataset": "github",
+          "query": "G-C1-1",
+          "median_ms": {
+            "specson": 181.491308,
+            "pg": 328.897644,
+            "pg-gin": 61.198791,
+            "mongodb": 730.185367,
+            "asterix": 398.344992,
+            "umbra": 77.077677,
+            "clickhouse": 62.227006,
+            "specson-toast": 187.321053
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 1.8121950170748673,
+            "pg-gin": 0.33719956990998157,
+            "mongodb": 4.023252546066835,
+            "asterix": 2.1948433585590776,
+            "umbra": 0.4246907350516202,
+            "clickhouse": 0.3428649376420826,
+            "specson-toast": 1.0321213454475737
+          }
+        },
+        {
+          "dataset": "github",
+          "query": "G-C1-2",
+          "median_ms": {
+            "specson": 173.716598,
+            "pg": 305.685984,
+            "pg-gin": 4.168556,
+            "mongodb": 1083.47922,
+            "asterix": 483.210674,
+            "umbra": 71.906092,
+            "clickhouse": 69.084959,
+            "specson-toast": 185.753735
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 1.7596820771265622,
+            "pg-gin": 0.023996302299219556,
+            "mongodb": 6.237050647284723,
+            "asterix": 2.7816033675722798,
+            "umbra": 0.4139275856645546,
+            "clickhouse": 0.39768772699543653,
+            "specson-toast": 1.069291807107574
+          }
+        },
+        {
+          "dataset": "github",
+          "query": "G-C1-3",
+          "median_ms": {
+            "specson": 178.988291,
+            "pg": 328.62822,
+            "pg-gin": 60.643861,
+            "mongodb": 734.575659,
+            "asterix": 391.334924,
+            "umbra": 76.787995,
+            "clickhouse": 60.240817,
+            "specson-toast": 185.997329
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 1.8360319446817892,
+            "pg-gin": 0.3388146825760798,
+            "mongodb": 4.104043090729326,
+            "asterix": 2.1863716437183034,
+            "umbra": 0.4290112753800191,
+            "clickhouse": 0.33656289282073765,
+            "specson-toast": 1.0391591984081239
+          }
+        },
+        {
+          "dataset": "github",
+          "query": "G-C1-4",
+          "median_ms": {
+            "specson": 178.414797,
+            "pg": 315.64219,
+            "pg-gin": 54.746377,
+            "mongodb": 733.446004,
+            "asterix": 607.661009,
+            "umbra": 70.089381,
+            "clickhouse": 91.434024,
+            "specson-toast": 186.421372
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 1.769148048858302,
+            "pg-gin": 0.30684885962681674,
+            "mongodb": 4.110903447094694,
+            "asterix": 3.405889081049707,
+            "umbra": 0.3928451125048782,
+            "clickhouse": 0.5124800495106916,
+            "specson-toast": 1.0448761825511592
+          }
+        },
+        {
+          "dataset": "github",
+          "query": "G-C2-1",
+          "median_ms": {
+            "specson": 179.274006,
+            "pg": 334.204512,
+            "pg-gin": 5.273557,
+            "mongodb": 709.077738,
+            "asterix": 342.106421,
+            "umbra": 86.415575,
+            "clickhouse": 38.477558,
+            "specson-toast": 191.870423
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 1.864210654164776,
+            "pg-gin": 0.02941618318051084,
+            "mongodb": 3.9552735715628504,
+            "asterix": 1.908287925467566,
+            "umbra": 0.4820307022089973,
+            "clickhouse": 0.21462987779723067,
+            "specson-toast": 1.0702634881712856
+          }
+        },
+        {
+          "dataset": "github",
+          "query": "G-C2-2",
+          "median_ms": {
+            "specson": 178.69442,
+            "pg": 387.420182,
+            "pg-gin": 392.867935,
+            "mongodb": 708.47057,
+            "asterix": 676.68269,
+            "umbra": 95.41604,
+            "clickhouse": 36.010839,
+            "specson-toast": 190.769276
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.168059763701631,
+            "pg-gin": 2.1985461829194217,
+            "mongodb": 3.964704493850451,
+            "asterix": 3.7868148876724854,
+            "umbra": 0.5339620565656162,
+            "clickhouse": 0.20152189978847687,
+            "specson-toast": 1.0675726528002385
+          }
+        },
+        {
+          "dataset": "github",
+          "query": "G-C2-3",
+          "median_ms": {
+            "specson": 178.731661,
+            "pg": 482.476239,
+            "pg-gin": 487.359153,
+            "mongodb": 841.86714,
+            "asterix": 639.004548,
+            "umbra": 95.847318,
+            "clickhouse": 44.174718,
+            "specson-toast": 192.014773
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.6994447223315405,
+            "pg-gin": 2.726764526627434,
+            "mongodb": 4.710229487544459,
+            "asterix": 3.575217420488248,
+            "umbra": 0.5362637904428136,
+            "clickhouse": 0.24715664674542467,
+            "specson-toast": 1.0743187408749029
+          }
+        },
+        {
+          "dataset": "github",
+          "query": "G-C2-4",
+          "median_ms": {
+            "specson": 178.851014,
+            "pg": 483.918871,
+            "pg-gin": 487.921206,
+            "mongodb": 825.669064,
+            "asterix": 661.198611,
+            "umbra": 96.993184,
+            "clickhouse": 44.737222,
+            "specson-toast": 190.999035
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.7057094068250573,
+            "pg-gin": 2.7280874460124673,
+            "mongodb": 4.616518774671303,
+            "asterix": 3.6969240275036968,
+            "umbra": 0.5423127430521585,
+            "clickhouse": 0.2501368094004768,
+            "specson-toast": 1.067922572695059
+          }
+        },
+        {
+          "dataset": "github",
+          "query": "G-C3-1",
+          "median_ms": {
+            "specson": 178.913731,
+            "pg": 386.952477,
+            "pg-gin": 1.550083,
+            "mongodb": 709.836018,
+            "asterix": 381.455923,
+            "umbra": 99.697258,
+            "clickhouse": 63.659318,
+            "specson-toast": 191.353498
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.1627880366543804,
+            "pg-gin": 0.008663857107758823,
+            "mongodb": 3.9674764705454604,
+            "asterix": 2.132066224699098,
+            "umbra": 0.5572364817544384,
+            "clickhouse": 0.3558101306377653,
+            "specson-toast": 1.0695294147099308
+          }
+        },
+        {
+          "dataset": "github",
+          "query": "G-C3-2",
+          "median_ms": {
+            "specson": 180.16282,
+            "pg": 416.598005,
+            "pg-gin": 16.72914,
+            "mongodb": 714.155518,
+            "asterix": 419.021473,
+            "umbra": 83.318384,
+            "clickhouse": 91.132959,
+            "specson-toast": 191.190383
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.312341719562338,
+            "pg-gin": 0.092855673551291,
+            "mongodb": 3.9639450470413373,
+            "asterix": 2.3257932630050973,
+            "umbra": 0.46246158891163,
+            "clickhouse": 0.5058366593062875,
+            "specson-toast": 1.0612088720636144
+          }
+        },
+        {
+          "dataset": "github",
+          "query": "G-C3-3",
+          "median_ms": {
+            "specson": 178.715901,
+            "pg": 329.590241,
+            "pg-gin": 0.054662,
+            "mongodb": 699.261314,
+            "asterix": 330.301072,
+            "umbra": 76.665185,
+            "clickhouse": 35.813159,
+            "specson-toast": 196.58951
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 1.8442132969466438,
+            "pg-gin": 0.000305859745518671,
+            "mongodb": 3.912697807454749,
+            "asterix": 1.848190732619813,
+            "umbra": 0.42897797325823844,
+            "clickhouse": 0.2003915644864751,
+            "specson-toast": 1.100011296700454
+          }
+        },
+        {
+          "dataset": "github",
+          "query": "G-C3-4",
+          "median_ms": {
+            "specson": 179.129515,
+            "pg": 388.141773,
+            "pg-gin": 1.599485,
+            "mongodb": 708.361336,
+            "asterix": 378.252704,
+            "umbra": 106.135586,
+            "clickhouse": 53.357555,
+            "specson-toast": 197.095676
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.16682199468915,
+            "pg-gin": 0.008929209683842443,
+            "mongodb": 3.9544646564805364,
+            "asterix": 2.111615743502683,
+            "umbra": 0.5925075273050341,
+            "clickhouse": 0.2978713753565402,
+            "specson-toast": 1.1002970448504814
+          }
+        },
+        {
+          "dataset": "github",
+          "query": "G-C4-1",
+          "median_ms": {
+            "specson": 181.414425,
+            "pg": 392.10691,
+            "pg-gin": 11.269024,
+            "mongodb": 717.16315,
+            "asterix": 783.319494,
+            "umbra": 104.284009,
+            "clickhouse": 101.349542,
+            "specson-toast": 250.170552
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.161387717652552,
+            "pg-gin": 0.062117574167544834,
+            "mongodb": 3.953175994687302,
+            "asterix": 4.317845695015707,
+            "umbra": 0.5748385719603059,
+            "clickhouse": 0.5586630831589053,
+            "specson-toast": 1.3790003303210314
+          }
+        },
+        {
+          "dataset": "github",
+          "query": "G-C4-2",
+          "median_ms": {
+            "specson": 180.862942,
+            "pg": 390.821863,
+            "pg-gin": 4.933639,
+            "mongodb": 713.209004,
+            "asterix": 771.458361,
+            "umbra": 98.551192,
+            "clickhouse": 107.303744,
+            "specson-toast": 199.154052
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.1608730825577305,
+            "pg-gin": 0.027278329907958702,
+            "mongodb": 3.943367259833692,
+            "asterix": 4.265430786810932,
+            "umbra": 0.5448943321954809,
+            "clickhouse": 0.593287617758645,
+            "specson-toast": 1.1011324365164867
+          }
+        },
+        {
+          "dataset": "github",
+          "query": "G-C4-3",
+          "median_ms": {
+            "specson": 181.865369,
+            "pg": 392.084347,
+            "pg-gin": 15.380815,
+            "mongodb": 720.514215,
+            "asterix": 772.99527,
+            "umbra": 108.244085,
+            "clickhouse": 108.450562,
+            "specson-toast": 199.452018
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.1559043877122095,
+            "pg-gin": 0.08457253343268449,
+            "mongodb": 3.961799978532472,
+            "asterix": 4.250370888368527,
+            "umbra": 0.5951879986563028,
+            "clickhouse": 0.5963233275049744,
+            "specson-toast": 1.0967014726151632
+          }
+        },
+        {
+          "dataset": "github",
+          "query": "G-C4-4",
+          "median_ms": {
+            "specson": 188.65274,
+            "pg": 332.644491,
+            "pg-gin": 31.06142,
+            "mongodb": 714.601763,
+            "asterix": 796.046559,
+            "umbra": 82.09832,
+            "clickhouse": 171.892532,
+            "specson-toast": 193.911977
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 1.7632635020302383,
+            "pg-gin": 0.16464865551382926,
+            "mongodb": 3.787921463531354,
+            "asterix": 4.219639529221786,
+            "umbra": 0.43518222952923985,
+            "clickhouse": 0.9111584173121472,
+            "specson-toast": 1.0278778723277489
+          }
+        },
+        {
+          "dataset": "yelp-business",
+          "query": "YB-C1-1",
+          "median_ms": {
+            "specson": 12.078259,
+            "pg": 23.589998,
+            "pg-gin": 20.582667,
+            "mongodb": 54.132256,
+            "asterix": 46.112006,
+            "umbra": 5.14172,
+            "clickhouse": 3.042818,
+            "specson-toast": 11.937564
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 1.9530958890681185,
+            "pg-gin": 1.704108762695021,
+            "mongodb": 4.4817929471457765,
+            "asterix": 3.8177692662493827,
+            "umbra": 0.4257004258643568,
+            "clickhouse": 0.2519252153807929,
+            "specson-toast": 0.9883513840860675
+          }
+        },
+        {
+          "dataset": "yelp-business",
+          "query": "YB-C1-2",
+          "median_ms": {
+            "specson": 11.953206,
+            "pg": 22.92351,
+            "pg-gin": 6.20467,
+            "mongodb": 45.504559,
+            "asterix": 45.113186,
+            "umbra": 3.261308,
+            "clickhouse": 3.357628,
+            "specson-toast": 12.34178
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 1.9177708474195125,
+            "pg-gin": 0.5190799857377176,
+            "mongodb": 3.8068915569596977,
+            "asterix": 3.7741494624956684,
+            "umbra": 0.2728396047052147,
+            "clickhouse": 0.28089769389066,
+            "specson-toast": 1.0325079313449463
+          }
+        },
+        {
+          "dataset": "yelp-business",
+          "query": "YB-C1-3",
+          "median_ms": {
+            "specson": 12.215046,
+            "pg": 24.964823,
+            "pg-gin": 19.446769,
+            "mongodb": 54.162523,
+            "asterix": 52.673194,
+            "umbra": 5.00311,
+            "clickhouse": 5.297892,
+            "specson-toast": 13.136886
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.043776421308606,
+            "pg-gin": 1.5920340373667035,
+            "mongodb": 4.434082605992643,
+            "asterix": 4.312156826916575,
+            "umbra": 0.40958585010649984,
+            "clickhouse": 0.4337185467823863,
+            "specson-toast": 1.0754675831757
+          }
+        },
+        {
+          "dataset": "yelp-business",
+          "query": "YB-C1-4",
+          "median_ms": {
+            "specson": 11.51777,
+            "pg": 24.143125,
+            "pg-gin": 19.269427,
+            "mongodb": 61.949326,
+            "asterix": 45.561205,
+            "umbra": 6.50353,
+            "clickhouse": 4.934471,
+            "specson-toast": 11.802752
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.096163146164579,
+            "pg-gin": 1.6730171725950422,
+            "mongodb": 5.3785868271375445,
+            "asterix": 3.9557314480146766,
+            "umbra": 0.5646518379859989,
+            "clickhouse": 0.42842242899450156,
+            "specson-toast": 1.0247428104572325
+          }
+        },
+        {
+          "dataset": "twitter",
+          "query": "T-C1-1",
+          "median_ms": {
+            "specson": 875.482653,
+            "pg": 3608.960542,
+            "pg-gin": 92.700796,
+            "mongodb": 4772.832698,
+            "asterix": 6105.045604,
+            "umbra": 369.024852,
+            "clickhouse": 86.818981,
+            "specson-toast": 1443.216113
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.122252485110062,
+            "pg-gin": 0.10588536012945991,
+            "mongodb": 5.4516587868931765,
+            "asterix": 6.973348453084655,
+            "umbra": 0.42151018153868547,
+            "clickhouse": 0.09916699171879535,
+            "specson-toast": 1.6484805359130283
+          }
+        },
+        {
+          "dataset": "twitter",
+          "query": "T-C1-2",
+          "median_ms": {
+            "specson": 745.60816,
+            "pg": 3501.063228,
+            "pg-gin": 3318.736258,
+            "mongodb": 6097.573331,
+            "asterix": 6853.964354,
+            "umbra": 250.41736,
+            "clickhouse": 91.42694,
+            "specson-toast": 1406.449157
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.695580622400914,
+            "pg-gin": 4.451046053465938,
+            "mongodb": 8.17798631790725,
+            "asterix": 9.192448154000889,
+            "umbra": 0.3358565174501309,
+            "clickhouse": 0.1226206268987185,
+            "specson-toast": 1.8863113796930548
+          }
+        },
+        {
+          "dataset": "twitter",
+          "query": "T-C1-3",
+          "median_ms": {
+            "specson": 716.935073,
+            "pg": 3523.253104,
+            "pg-gin": 3323.659187,
+            "mongodb": 6804.00952,
+            "asterix": 6279.945989,
+            "umbra": 370.930802,
+            "clickhouse": 98.449962,
+            "specson-toast": 1386.895172
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.914326605974262,
+            "pg-gin": 4.635927732050012,
+            "mongodb": 9.49041241841993,
+            "asterix": 8.759434745913177,
+            "umbra": 0.5173840923249127,
+            "clickhouse": 0.13732061062104015,
+            "specson-toast": 1.9344780639571248
+          }
+        },
+        {
+          "dataset": "twitter",
+          "query": "T-C1-4",
+          "median_ms": {
+            "specson": 645.342817,
+            "pg": 3428.052626,
+            "pg-gin": 2329.592692,
+            "mongodb": 5648.323948,
+            "asterix": 6802.927875,
+            "umbra": 357.897334,
+            "clickhouse": 87.865871,
+            "specson-toast": 1371.609732
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 5.311986955918966,
+            "pg-gin": 3.6098529814425753,
+            "mongodb": 8.752439477450634,
+            "asterix": 10.541572162567357,
+            "umbra": 0.5545848261916891,
+            "clickhouse": 0.1361537909548004,
+            "specson-toast": 2.1253970693842867
+          }
+        },
+        {
+          "dataset": "twitter",
+          "query": "T-C2-1",
+          "median_ms": {
+            "specson": 635.726409,
+            "pg": 3380.135961,
+            "pg-gin": 1.908173,
+            "mongodb": 4666.842274,
+            "asterix": 6126.658881,
+            "umbra": 438.554264,
+            "clickhouse": 58.043601,
+            "specson-toast": 1395.446149
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 5.316966407478598,
+            "pg-gin": 0.003001563208616051,
+            "mongodb": 7.340960211706416,
+            "asterix": 9.637257150662117,
+            "umbra": 0.6898474843759401,
+            "clickhouse": 0.09130279972370946,
+            "specson-toast": 2.195041969697377
+          }
+        },
+        {
+          "dataset": "twitter",
+          "query": "T-C2-2",
+          "median_ms": {
+            "specson": 665.519313,
+            "pg": 3357.504537,
+            "pg-gin": 1115.039795,
+            "mongodb": 5150.935351,
+            "asterix": 6284.871233,
+            "umbra": 1411.922813,
+            "clickhouse": 60.301029,
+            "specson-toast": 1387.818528
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 5.044939299905786,
+            "pg-gin": 1.6754431813160617,
+            "mongodb": 7.739723326406307,
+            "asterix": 9.443559503433974,
+            "umbra": 2.1215354467106198,
+            "clickhouse": 0.09060748173960205,
+            "specson-toast": 2.085316685618108
+          }
+        },
+        {
+          "dataset": "twitter",
+          "query": "T-C2-3",
+          "median_ms": {
+            "specson": 663.678466,
+            "pg": 3826.651784,
+            "pg-gin": 3609.940428,
+            "mongodb": 6308.918528,
+            "asterix": 6349.802463,
+            "umbra": 1453.751668,
+            "clickhouse": 65.253583,
+            "specson-toast": 1389.392899
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 5.765821824931714,
+            "pg-gin": 5.43929118230574,
+            "mongodb": 9.505986484726478,
+            "asterix": 9.567588506028159,
+            "umbra": 2.1904457391269347,
+            "clickhouse": 0.09832107917149147,
+            "specson-toast": 2.0934729242819823
+          }
+        },
+        {
+          "dataset": "twitter",
+          "query": "T-C2-4",
+          "median_ms": {
+            "specson": 664.247762,
+            "pg": 3847.820068,
+            "pg-gin": 3619.673125,
+            "mongodb": 6354.105562,
+            "asterix": 6439.399015,
+            "umbra": 1460.885979,
+            "clickhouse": 69.577611,
+            "specson-toast": 1390.261582
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 5.792748260700953,
+            "pg-gin": 5.449281626634972,
+            "mongodb": 9.565866722483591,
+            "asterix": 9.694272805092266,
+            "umbra": 2.1993088461470798,
+            "clickhouse": 0.10474647410253526,
+            "specson-toast": 2.092986475127936
+          }
+        },
+        {
+          "dataset": "twitter",
+          "query": "T-C3-1",
+          "median_ms": {
+            "specson": 685.339512,
+            "pg": 3405.82551,
+            "pg-gin": 2717.235902,
+            "mongodb": 6765.177579,
+            "asterix": 6164.809667,
+            "umbra": 1727.230617,
+            "clickhouse": 140.832174,
+            "specson-toast": 1403.620001
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.969544948693984,
+            "pg-gin": 3.9648026334719773,
+            "mongodb": 9.871279067592997,
+            "asterix": 8.995263747466526,
+            "umbra": 2.520255416121404,
+            "clickhouse": 0.2054925646837651,
+            "specson-toast": 2.0480651945834403
+          }
+        },
+        {
+          "dataset": "twitter",
+          "query": "T-C3-2",
+          "median_ms": {
+            "specson": 666.633751,
+            "pg": 3387.655553,
+            "pg-gin": 1146.783332,
+            "mongodb": 5490.571385,
+            "asterix": 6068.37523,
+            "umbra": 1725.606655,
+            "clickhouse": 137.445322,
+            "specson-toast": 1392.359632
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 5.081734232505129,
+            "pg-gin": 1.7202599332538147,
+            "mongodb": 8.236263730667307,
+            "asterix": 9.103012292577427,
+            "umbra": 2.5885377876704596,
+            "clickhouse": 0.20617816273751793,
+            "specson-toast": 2.0886425715940087
+          }
+        },
+        {
+          "dataset": "twitter",
+          "query": "T-C3-3",
+          "median_ms": {
+            "specson": 665.868237,
+            "pg": 3382.522621,
+            "pg-gin": 1149.116732,
+            "mongodb": 5378.870217,
+            "asterix": 6063.75089,
+            "umbra": 2029.070228,
+            "clickhouse": 176.285159,
+            "specson-toast": 1390.678972
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 5.079867807240068,
+            "pg-gin": 1.725741923322887,
+            "mongodb": 8.077979873666807,
+            "asterix": 9.106532723830766,
+            "umbra": 3.047254870035196,
+            "clickhouse": 0.26474480866399996,
+            "specson-toast": 2.0885197622063476
+          }
+        },
+        {
+          "dataset": "twitter",
+          "query": "T-C3-4",
+          "median_ms": {
+            "specson": 905.212621,
+            "pg": 3471.502587,
+            "pg-gin": 2312.70211,
+            "mongodb": 7286.19228,
+            "asterix": 6336.537632,
+            "umbra": 890.622426,
+            "clickhouse": 184.096146,
+            "specson-toast": 1422.692637
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 3.8350134614395746,
+            "pg-gin": 2.554871702346713,
+            "mongodb": 8.049150123371954,
+            "asterix": 7.000054445772028,
+            "umbra": 0.9838820243316073,
+            "clickhouse": 0.20337337519292056,
+            "specson-toast": 1.5716668150609006
+          }
+        },
+        {
+          "dataset": "twitter",
+          "query": "T-C4-1",
+          "median_ms": {
+            "specson": 759.247343,
+            "pg": 5759.599409,
+            "pg-gin": 5546.199367,
+            "mongodb": 6270.346622,
+            "asterix": 8653.272174,
+            "umbra": 1518.700231,
+            "clickhouse": 238.439017,
+            "specson-toast": 1484.405512
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 7.5859329138277936,
+            "pg-gin": 7.304865032632719,
+            "mongodb": 8.258634922875192,
+            "asterix": 11.397171493295565,
+            "umbra": 2.0002707220537483,
+            "clickhouse": 0.3140465609769016,
+            "specson-toast": 1.9551013588466388
+          }
+        },
+        {
+          "dataset": "twitter",
+          "query": "T-C4-2",
+          "median_ms": {
+            "specson": 762.342098,
+            "pg": 4080.75081,
+            "pg-gin": 1103.493441,
+            "mongodb": 5512.847312,
+            "asterix": 8427.058481,
+            "umbra": 1737.892874,
+            "clickhouse": 276.988672,
+            "specson-toast": 1496.197023
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 5.3529128467466585,
+            "pg-gin": 1.447504268615112,
+            "mongodb": 7.231461212050236,
+            "asterix": 11.05416912316444,
+            "umbra": 2.2796758549204506,
+            "clickhouse": 0.36333907405438864,
+            "specson-toast": 1.9626320347849924
+          }
+        },
+        {
+          "dataset": "twitter",
+          "query": "T-C4-3",
+          "median_ms": {
+            "specson": 972.130932,
+            "pg": 4217.338956,
+            "pg-gin": 883.231905,
+            "mongodb": 6111.691831,
+            "asterix": 8526.300787,
+            "umbra": 906.393872,
+            "clickhouse": 275.867502,
+            "specson-toast": 1511.041468
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.338241709193962,
+            "pg-gin": 0.9085524140075403,
+            "mongodb": 6.286901928350532,
+            "asterix": 8.770732939706521,
+            "umbra": 0.9323783887168812,
+            "clickhouse": 0.28377607678057093,
+            "specson-toast": 1.5543600334692362
+          }
+        },
+        {
+          "dataset": "twitter",
+          "query": "T-C4-4",
+          "median_ms": {
+            "specson": 738.568738,
+            "pg": 4090.660498,
+            "pg-gin": 1696.116517,
+            "mongodb": 5658.766995,
+            "asterix": 8141.559883,
+            "umbra": 593.075925,
+            "clickhouse": 334.860141,
+            "specson-toast": 1452.785382
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 5.5386320697478535,
+            "pg-gin": 2.2964910775847107,
+            "mongodb": 7.661801405680401,
+            "asterix": 11.023428780707476,
+            "umbra": 0.8030070790783997,
+            "clickhouse": 0.4533906240152829,
+            "specson-toast": 1.9670279924574874
+          }
+        },
+        {
+          "dataset": "tpch",
+          "query": "H-C1-1",
+          "median_ms": {
+            "specson": 264.441263,
+            "pg": 1142.377511,
+            "pg-gin": 1115.717561,
+            "mongodb": 690.926645,
+            "asterix": 419.0831,
+            "umbra": 52.748806,
+            "clickhouse": 8.050016,
+            "specson-toast": 730.221376
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.319966929669368,
+            "pg-gin": 4.21915077980852,
+            "mongodb": 2.612779250717767,
+            "asterix": 1.584787091264195,
+            "umbra": 0.19947267458029047,
+            "clickhouse": 0.030441603207741447,
+            "specson-toast": 2.761374559007457
+          }
+        },
+        {
+          "dataset": "tpch",
+          "query": "H-C1-2",
+          "median_ms": {
+            "specson": 253.260945,
+            "pg": 1140.925332,
+            "pg-gin": 929.924099,
+            "mongodb": 741.975497,
+            "asterix": 484.471205,
+            "umbra": 116.387967,
+            "clickhouse": 9.76642,
+            "specson-toast": 715.105362
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.504939883249666,
+            "pg-gin": 3.6718022156949623,
+            "mongodb": 2.929687785062952,
+            "asterix": 1.9129329435298443,
+            "umbra": 0.45955750105883875,
+            "clickhouse": 0.03856267692596662,
+            "specson-toast": 2.823591146278002
+          }
+        },
+        {
+          "dataset": "tpch",
+          "query": "H-C1-3",
+          "median_ms": {
+            "specson": 253.141712,
+            "pg": 1139.748648,
+            "pg-gin": 1071.500336,
+            "mongodb": 646.683629,
+            "asterix": 469.678362,
+            "umbra": 38.191192,
+            "clickhouse": 7.604672,
+            "specson-toast": 718.105377
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.502413446583628,
+            "pg-gin": 4.232808285660958,
+            "mongodb": 2.5546308583075397,
+            "asterix": 1.855396956468399,
+            "umbra": 0.15086882244045186,
+            "clickhouse": 0.030041165242652698,
+            "specson-toast": 2.8367722226671197
+          }
+        },
+        {
+          "dataset": "tpch",
+          "query": "H-C1-4",
+          "median_ms": {
+            "specson": 275.065911,
+            "pg": 1154.890865,
+            "pg-gin": 246.306511,
+            "mongodb": 908.370504,
+            "asterix": 417.378657,
+            "umbra": 52.826521,
+            "clickhouse": 9.229304,
+            "specson-toast": 718.854337
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.1985968410313115,
+            "pg-gin": 0.8954454228972051,
+            "mongodb": 3.3023739681068656,
+            "asterix": 1.517376891533462,
+            "umbra": 0.19205041005608287,
+            "clickhouse": 0.033553063578278156,
+            "specson-toast": 2.613389403240156
+          }
+        },
+        {
+          "dataset": "tpch",
+          "query": "H-C2-1",
+          "median_ms": {
+            "specson": 460.735344,
+            "pg": 1192.903865,
+            "pg-gin": 1122.477203,
+            "mongodb": 2773.493238,
+            "asterix": 1406.384782,
+            "umbra": 7353.256975,
+            "clickhouse": 79.644134,
+            "specson-toast": 769.845098
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.5891303554953664,
+            "pg-gin": 2.4362732697146843,
+            "mongodb": 6.019710174438018,
+            "asterix": 3.052478609064557,
+            "umbra": 15.959828284847191,
+            "clickhouse": 0.17286308731721697,
+            "specson-toast": 1.670905234480991
+          }
+        },
+        {
+          "dataset": "tpch",
+          "query": "H-C2-2",
+          "median_ms": {
+            "specson": 452.72922,
+            "pg": 1209.075901,
+            "pg-gin": 1175.463791,
+            "mongodb": 1652.384558,
+            "asterix": 995.136495,
+            "umbra": 7224.319037,
+            "clickhouse": 21.673549,
+            "specson-toast": 749.645537
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.6706380935606497,
+            "pg-gin": 2.5963947964304137,
+            "mongodb": 3.649829710571807,
+            "asterix": 2.1980832052324786,
+            "umbra": 15.957262570770228,
+            "clickhouse": 0.04787309509202874,
+            "specson-toast": 1.6558364335308422
+          }
+        },
+        {
+          "dataset": "tpch",
+          "query": "H-C2-3",
+          "median_ms": {
+            "specson": 435.864968,
+            "pg": 2377.854234,
+            "pg-gin": 2359.878716,
+            "mongodb": 2397.767978,
+            "asterix": 1155.603621,
+            "umbra": 7246.341249,
+            "clickhouse": 17.399195,
+            "specson-toast": 741.771446
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 5.455483713020038,
+            "pg-gin": 5.414242688116198,
+            "mongodb": 5.501171587618852,
+            "asterix": 2.6512881416062783,
+            "umbra": 16.625197666723242,
+            "clickhouse": 0.03991877365101753,
+            "specson-toast": 1.7018377260362894
+          }
+        },
+        {
+          "dataset": "tpch",
+          "query": "H-C2-4",
+          "median_ms": {
+            "specson": 450.677788,
+            "pg": 2469.869466,
+            "pg-gin": 2454.614452,
+            "mongodb": 2297.865735,
+            "asterix": 1198.543286,
+            "umbra": 7245.885936,
+            "clickhouse": 19.536978,
+            "specson-toast": 754.862224
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 5.480344343040931,
+            "pg-gin": 5.446495295215214,
+            "mongodb": 5.0986886777743745,
+            "asterix": 2.6594239119679,
+            "umbra": 16.077752507296854,
+            "clickhouse": 0.04335021276886182,
+            "specson-toast": 1.6749488084378366
+          }
+        },
+        {
+          "dataset": "tpch",
+          "query": "H-C3-1",
+          "median_ms": {
+            "specson": 453.809313,
+            "pg": 1222.23249,
+            "pg-gin": 1186.398772,
+            "mongodb": 1774.69722,
+            "asterix": 903.533956,
+            "umbra": 8841.583184,
+            "clickhouse": 29.206096,
+            "specson-toast": 752.167089
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.6932732647555873,
+            "pg-gin": 2.6143112051999693,
+            "mongodb": 3.9106672541997836,
+            "asterix": 1.990999149019227,
+            "umbra": 19.483036003714627,
+            "clickhouse": 0.06435763913024853,
+            "specson-toast": 1.6574518579789483
+          }
+        },
+        {
+          "dataset": "tpch",
+          "query": "H-C3-2",
+          "median_ms": {
+            "specson": 459.575301,
+            "pg": 1286.242996,
+            "pg-gin": 929.714216,
+            "mongodb": 2061.83061,
+            "asterix": 1018.904095,
+            "umbra": 12645.019311,
+            "clickhouse": 47.77977,
+            "specson-toast": 752.8745
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.7987644096652615,
+            "pg-gin": 2.0229855999158666,
+            "mongodb": 4.486382548221407,
+            "asterix": 2.2170558182368465,
+            "umbra": 27.514575486292287,
+            "clickhouse": 0.10396505185556087,
+            "specson-toast": 1.6381961745154794
+          }
+        },
+        {
+          "dataset": "tpch",
+          "query": "H-C3-3",
+          "median_ms": {
+            "specson": 445.046773,
+            "pg": 1270.294719,
+            "pg-gin": 935.71362,
+            "mongodb": 1659.149427,
+            "asterix": 1103.912425,
+            "umbra": 10680.706509,
+            "clickhouse": 30.514877,
+            "specson-toast": 743.191078
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.8542948653174487,
+            "pg-gin": 2.1025062460120343,
+            "mongodb": 3.7280338329742255,
+            "asterix": 2.48044136475516,
+            "umbra": 23.99906517016808,
+            "clickhouse": 0.06856555052473103,
+            "specson-toast": 1.6699167887236877
+          }
+        },
+        {
+          "dataset": "tpch",
+          "query": "H-C3-4",
+          "median_ms": {
+            "specson": 542.437381,
+            "pg": 1274.766803,
+            "pg-gin": 1239.312417,
+            "mongodb": 3382.582472,
+            "asterix": 1628.304894,
+            "umbra": 11112.760499,
+            "clickhouse": 54.894394,
+            "specson-toast": 774.328436
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 2.35007181962631,
+            "pg-gin": 2.28471056827848,
+            "mongodb": 6.23589485253414,
+            "asterix": 3.001830167010559,
+            "umbra": 20.486715864812425,
+            "clickhouse": 0.10119950416912732,
+            "specson-toast": 1.4274982940381096
+          }
+        },
+        {
+          "dataset": "tpch",
+          "query": "H-C4-1",
+          "median_ms": {
+            "specson": 1033.395685,
+            "pg": 8272.517735,
+            "pg-gin": 8168.90265,
+            "mongodb": 6368.135577,
+            "asterix": 4837.152223,
+            "umbra": 12064.740292,
+            "clickhouse": 646.169066,
+            "specson-toast": 1303.796871
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 8.00517928909293,
+            "pg-gin": 7.904912676309462,
+            "mongodb": 6.162340011125555,
+            "asterix": 4.680832611566402,
+            "umbra": 11.674850657035597,
+            "clickhouse": 0.625287172550948,
+            "specson-toast": 1.2616627782803256
+          }
+        },
+        {
+          "dataset": "tpch",
+          "query": "H-C4-2",
+          "median_ms": {
+            "specson": 826.089101,
+            "pg": 10160.623912,
+            "pg-gin": 10002.124574,
+            "mongodb": 5798.503376,
+            "asterix": 3641.67543,
+            "umbra": 6178.274363,
+            "clickhouse": 535.490962,
+            "specson-toast": 1163.515076
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 12.299670701018,
+            "pg-gin": 12.107803579410739,
+            "mongodb": 7.019222707309389,
+            "asterix": 4.4083324977798,
+            "umbra": 7.4789442876332055,
+            "clickhouse": 0.6482242186124665,
+            "specson-toast": 1.4084619620226655
+          }
+        },
+        {
+          "dataset": "tpch",
+          "query": "H-C4-3",
+          "median_ms": {
+            "specson": 723.597119,
+            "pg": 10929.800179,
+            "pg-gin": 10012.079745,
+            "mongodb": 4695.419392,
+            "asterix": 3066.672992,
+            "umbra": 11572.077666,
+            "clickhouse": 195.700338,
+            "specson-toast": 959.340303
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 15.104814394652115,
+            "pg-gin": 13.836538982958553,
+            "mongodb": 6.4889968032059,
+            "asterix": 4.238094530058514,
+            "umbra": 15.99243192398614,
+            "clickhouse": 0.2704548330298147,
+            "specson-toast": 1.3257934253881405
+          }
+        },
+        {
+          "dataset": "tpch",
+          "query": "H-C4-4",
+          "median_ms": {
+            "specson": 498.233809,
+            "pg": 5057.35608,
+            "pg-gin": 4987.032594,
+            "mongodb": 3551.459988,
+            "asterix": 2539.961972,
+            "umbra": 4420.486921,
+            "clickhouse": 116.844861,
+            "specson-toast": 891.289527
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 10.150567843138882,
+            "pg-gin": 10.009422291131592,
+            "mongodb": 7.128099145114418,
+            "asterix": 5.097931786479789,
+            "umbra": 8.872314245137868,
+            "clickhouse": 0.23451812961974244,
+            "specson-toast": 1.788898125538486
+          }
+        },
+        {
+          "dataset": "openalex",
+          "query": "O-C1-1",
+          "median_ms": {
+            "specson": 93.843035,
+            "pg": 427.979651,
+            "pg-gin": 422.501141,
+            "mongodb": 710.382361,
+            "asterix": 1010.449382,
+            "umbra": 34.232198,
+            "clickhouse": 7.392214,
+            "specson-toast": 284.800184
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.560590468967676,
+            "pg-gin": 4.502210963232381,
+            "mongodb": 7.569899684084173,
+            "asterix": 10.767441419600294,
+            "umbra": 0.3647814459538739,
+            "clickhouse": 0.07877211132397839,
+            "specson-toast": 3.0348569182571725
+          }
+        },
+        {
+          "dataset": "openalex",
+          "query": "O-C1-2",
+          "median_ms": {
+            "specson": 93.240827,
+            "pg": 423.895622,
+            "pg-gin": 240.895257,
+            "mongodb": 692.158733,
+            "asterix": 1037.564272,
+            "umbra": 17.5787,
+            "clickhouse": 9.544445,
+            "specson-toast": 282.665376
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.546244768935822,
+            "pg-gin": 2.583581299638194,
+            "mongodb": 7.423343992862698,
+            "asterix": 11.127789246227945,
+            "umbra": 0.1885300738484441,
+            "clickhouse": 0.1023633670688056,
+            "specson-toast": 3.031562300493109
+          }
+        },
+        {
+          "dataset": "openalex",
+          "query": "O-C1-3",
+          "median_ms": {
+            "specson": 88.503285,
+            "pg": 420.768776,
+            "pg-gin": 414.976919,
+            "mongodb": 255.89064,
+            "asterix": 1008.256345,
+            "umbra": 18.508732,
+            "clickhouse": 6.786199,
+            "specson-toast": 281.106513
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.7542729741613545,
+            "pg-gin": 4.688830691425747,
+            "mongodb": 2.891312339423333,
+            "asterix": 11.392304195262357,
+            "umbra": 0.2091304520504521,
+            "clickhouse": 0.07667736852931503,
+            "specson-toast": 3.1762268824258895
+          }
+        },
+        {
+          "dataset": "openalex",
+          "query": "O-C1-4",
+          "median_ms": {
+            "specson": 90.420866,
+            "pg": 422.838091,
+            "pg-gin": 34.667033,
+            "mongodb": 623.975091,
+            "asterix": 975.92118,
+            "umbra": 23.540426,
+            "clickhouse": 8.375486,
+            "specson-toast": 280.180362
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.676333126471052,
+            "pg-gin": 0.38339638330825104,
+            "mongodb": 6.900786495453383,
+            "asterix": 10.793097026962782,
+            "umbra": 0.2603428505097485,
+            "clickhouse": 0.09262780119801109,
+            "specson-toast": 3.098625067360005
+          }
+        },
+        {
+          "dataset": "openalex",
+          "query": "O-C2-1",
+          "median_ms": {
+            "specson": 126.441454,
+            "pg": 454.011843,
+            "pg-gin": 80.089407,
+            "mongodb": 182.265218,
+            "asterix": 353.671258,
+            "umbra": 24.125922,
+            "clickhouse": 6.630828,
+            "specson-toast": 285.186536
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 3.5906882484916696,
+            "pg-gin": 0.6334109935179961,
+            "mongodb": 1.4414989090524062,
+            "asterix": 2.7971147658583555,
+            "umbra": 0.19080705921018593,
+            "clickhouse": 0.05244188349811289,
+            "specson-toast": 2.255482889337859
+          }
+        },
+        {
+          "dataset": "openalex",
+          "query": "O-C2-2",
+          "median_ms": {
+            "specson": 98.07989,
+            "pg": 419.240614,
+            "pg-gin": 414.396873,
+            "mongodb": 716.984746,
+            "asterix": 297.815044,
+            "umbra": 36.367006,
+            "clickhouse": 5.420351,
+            "specson-toast": 281.403628
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.274480874723656,
+            "pg-gin": 4.225095205551312,
+            "mongodb": 7.310211563247062,
+            "asterix": 3.0364536909655993,
+            "umbra": 0.37078962874040744,
+            "clickhouse": 0.05526465211166122,
+            "specson-toast": 2.869126668066206
+          }
+        },
+        {
+          "dataset": "openalex",
+          "query": "O-C2-3",
+          "median_ms": {
+            "specson": 122.080106,
+            "pg": 468.991326,
+            "pg-gin": 456.652555,
+            "mongodb": 826.504259,
+            "asterix": 360.504205,
+            "umbra": 36.468647,
+            "clickhouse": 6.598136,
+            "specson-toast": 282.692787
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 3.8416687318407146,
+            "pg-gin": 3.740597628576764,
+            "mongodb": 6.770179729365569,
+            "asterix": 2.953013531950898,
+            "umbra": 0.29872718983386204,
+            "clickhouse": 0.05404759396260682,
+            "specson-toast": 2.3156335316419203
+          }
+        },
+        {
+          "dataset": "openalex",
+          "query": "O-C2-4",
+          "median_ms": {
+            "specson": 122.105995,
+            "pg": 471.460279,
+            "pg-gin": 457.494037,
+            "mongodb": 812.2909,
+            "asterix": 296.139075,
+            "umbra": 35.770358,
+            "clickhouse": 6.692484,
+            "specson-toast": 282.4913
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 3.8610739710200144,
+            "pg-gin": 3.7466959505141415,
+            "mongodb": 6.652342499645493,
+            "asterix": 2.4252623714339334,
+            "umbra": 0.29294514163698515,
+            "clickhouse": 0.054808807708417596,
+            "specson-toast": 2.3134924702100013
+          }
+        },
+        {
+          "dataset": "openalex",
+          "query": "O-C3-1",
+          "median_ms": {
+            "specson": 142.461466,
+            "pg": 461.439102,
+            "pg-gin": 120.341189,
+            "mongodb": 530.473776,
+            "asterix": 377.219669,
+            "umbra": 511.436866,
+            "clickhouse": 13.612593,
+            "specson-toast": 287.360318
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 3.2390450200758147,
+            "pg-gin": 0.8447279982363792,
+            "mongodb": 3.7236299112631626,
+            "asterix": 2.6478715935718364,
+            "umbra": 3.5900014253678956,
+            "clickhouse": 0.0955528072412227,
+            "specson-toast": 2.017109089695876
+          }
+        },
+        {
+          "dataset": "openalex",
+          "query": "O-C3-2",
+          "median_ms": {
+            "specson": 100.562328,
+            "pg": 443.288009,
+            "pg-gin": 15.895989,
+            "mongodb": 420.002481,
+            "asterix": 11374.238132,
+            "umbra": 1229.820981,
+            "clickhouse": 16.325875,
+            "specson-toast": 287.95583
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.408092153554759,
+            "pg-gin": 0.15807101243718225,
+            "mongodb": 4.176538961985845,
+            "asterix": 113.10635262938624,
+            "umbra": 12.229440243268833,
+            "clickhouse": 0.16234583391903976,
+            "specson-toast": 2.86345628354984
+          }
+        },
+        {
+          "dataset": "openalex",
+          "query": "O-C3-3",
+          "median_ms": {
+            "specson": 114.893687,
+            "pg": 452.233191,
+            "pg-gin": 15.634048,
+            "mongodb": 411.377188,
+            "asterix": 11298.404203,
+            "umbra": 1328.377674,
+            "clickhouse": 19.986279,
+            "specson-toast": 290.992304
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 3.9361013020671884,
+            "pg-gin": 0.1360740386023124,
+            "mongodb": 3.580502974023281,
+            "asterix": 98.33790261252561,
+            "umbra": 11.561798639119312,
+            "clickhouse": 0.17395454460435236,
+            "specson-toast": 2.5327092514665317
+          }
+        },
+        {
+          "dataset": "openalex",
+          "query": "O-C3-4",
+          "median_ms": {
+            "specson": 99.137259,
+            "pg": 451.544351,
+            "pg-gin": 427.218801,
+            "mongodb": 725.852863,
+            "asterix": 301.39003,
+            "umbra": 38.025593,
+            "clickhouse": 8.39926,
+            "specson-toast": 288.253316
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.554739111760191,
+            "pg-gin": 4.309366683216449,
+            "mongodb": 7.321695902445719,
+            "asterix": 3.0401287370674632,
+            "umbra": 0.3835651034088001,
+            "clickhouse": 0.08472354475727435,
+            "specson-toast": 2.9076183758520093
+          }
+        },
+        {
+          "dataset": "openalex",
+          "query": "O-C4-1",
+          "median_ms": {
+            "specson": 105.270075,
+            "pg": 1607.483229,
+            "pg-gin": 1602.416902,
+            "mongodb": 865.660309,
+            "asterix": 1164.134036,
+            "umbra": 43.871841,
+            "clickhouse": 17.645025,
+            "specson-toast": 293.895919
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 15.270087239892247,
+            "pg-gin": 15.221960295934052,
+            "mongodb": 8.223232566329985,
+            "asterix": 11.058546657252784,
+            "umbra": 0.41675510348026257,
+            "clickhouse": 0.16761672298609076,
+            "specson-toast": 2.791827772517498
+          }
+        },
+        {
+          "dataset": "openalex",
+          "query": "O-C4-2",
+          "median_ms": {
+            "specson": 110.741472,
+            "pg": 443.680103,
+            "pg-gin": 51.601316,
+            "mongodb": 425.542987,
+            "asterix": 16647.027024,
+            "umbra": 497.8396,
+            "clickhouse": 38.754588,
+            "specson-toast": 297.012131
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.00644939052282,
+            "pg-gin": 0.4659619839620697,
+            "mongodb": 3.842670494753763,
+            "asterix": 150.3233316602474,
+            "umbra": 4.495511853048152,
+            "clickhouse": 0.3499555071834335,
+            "specson-toast": 2.682031633099477
+          }
+        },
+        {
+          "dataset": "openalex",
+          "query": "O-C4-3",
+          "median_ms": {
+            "specson": 106.247155,
+            "pg": 462.425328,
+            "pg-gin": 19.043824,
+            "mongodb": 427.216872,
+            "asterix": 12106.915264,
+            "umbra": 1210.137128,
+            "clickhouse": 35.267257,
+            "specson-toast": 297.378346
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 4.352354921880026,
+            "pg-gin": 0.17924079002397758,
+            "mongodb": 4.020972345094793,
+            "asterix": 113.95048897073995,
+            "umbra": 11.389830890060068,
+            "clickhouse": 0.33193601278076573,
+            "specson-toast": 2.798929966642401
+          }
+        },
+        {
+          "dataset": "openalex",
+          "query": "O-C4-4",
+          "median_ms": {
+            "specson": 154.434238,
+            "pg": 1759.076907,
+            "pg-gin": 294.510425,
+            "mongodb": 571.357892,
+            "asterix": 1154.473825,
+            "umbra": 593.804549,
+            "clickhouse": 26.751139,
+            "specson-toast": 299.73568
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "pg": 11.390459329361926,
+            "pg-gin": 1.9070280581175272,
+            "mongodb": 3.699684081712502,
+            "asterix": 7.475504395599116,
+            "umbra": 3.8450317539042085,
+            "clickhouse": 0.17322026091131423,
+            "specson-toast": 1.9408628804190429
+          }
+        }
+      ],
+      "reference": {
+        "system": "pg",
+        "warmups": 1,
+        "runs": 3,
+        "signatures": {
+          "G-C1-1": {
+            "rows": 1668,
+            "sum_sha256": "bfef233732af43c597f375fbf0a0af36210dd12642415d80c3d4283ed5f15476",
+            "numeric_round_digits": 6
+          },
+          "G-C1-2": {
+            "rows": 604,
+            "sum_sha256": "3483922b5ef7e3651ea79b69bd1b014a1949f27067fd75ec232872c748dc1e98",
+            "numeric_round_digits": 6
+          },
+          "G-C1-3": {
+            "rows": 90,
+            "sum_sha256": "3e065bc727fda57973f99d4b71e4b35cc7f23186e22a77053ddcdd87cb5daa9f",
+            "numeric_round_digits": 6
+          },
+          "G-C1-4": {
+            "rows": 2867,
+            "sum_sha256": "18eb6c3e679e4ce0afa258b284e9c6f3afebcf7b5755334eb921ecd380dbce58",
+            "numeric_round_digits": 6
+          },
+          "G-C2-1": {
+            "rows": 1572,
+            "sum_sha256": "01654b3c0ef71c9e2c8c5e5d2352c2128fd65c4019edeeec79e1197e1947571e",
+            "numeric_round_digits": 6
+          },
+          "G-C2-2": {
+            "rows": 326,
+            "sum_sha256": "f18deba67dc4967da6b481a559946874bd8f53894ae04a8b7a56f7a30f2ae07d",
+            "numeric_round_digits": 6
+          },
+          "G-C2-3": {
+            "rows": 564,
+            "sum_sha256": "d5026a995c19898418a2dad03cb24c57d6c87ce22950f160a455f673b0e22c7a",
+            "numeric_round_digits": 6
+          },
+          "G-C2-4": {
+            "rows": 859,
+            "sum_sha256": "745d2c468e014ff1c630d898ae11c7c3869455dfb41c3b519381d853c328263c",
+            "numeric_round_digits": 6
+          },
+          "G-C3-1": {
+            "rows": 252,
+            "sum_sha256": "c28223980fc62ce14939a238d2b4251d92ff84edc6cc6cafad62c18bd6acc750",
+            "numeric_round_digits": 6
+          },
+          "G-C3-2": {
+            "rows": 2058,
+            "sum_sha256": "3ed0a7f6d173eb29024fa576b4df86ee69a29f0fd13f8e6ea1195fa4e5a00d09",
+            "numeric_round_digits": 6
+          },
+          "G-C3-3": {
+            "rows": 14,
+            "sum_sha256": "accbe68187188ccac2a47088efa4ae2606d91764ddaa4744728271ea039eb03e",
+            "numeric_round_digits": 6
+          },
+          "G-C3-4": {
+            "rows": 322,
+            "sum_sha256": "f7d5a57e2c27c24b5c47bae69cbdcce42156d7f1df7039293ac4329932d09b60",
+            "numeric_round_digits": 6
+          },
+          "G-C4-1": {
+            "rows": 461,
+            "sum_sha256": "5d0d7d8d8e1017e629ea65b11ebf7e6409be8ed6a4d2dbc795d1da0cd74353dd",
+            "numeric_round_digits": 6
+          },
+          "G-C4-2": {
+            "rows": 242,
+            "sum_sha256": "529c450f61889b4bd0b723c35be97c71bd5317eca16750b9375a0b6c6f651ee5",
+            "numeric_round_digits": 6
+          },
+          "G-C4-3": {
+            "rows": 977,
+            "sum_sha256": "739c58c255767fe9ae3205e6926437893fffe72261074cfcee61839d41163fa5",
+            "numeric_round_digits": 6
+          },
+          "G-C4-4": {
+            "rows": 121,
+            "sum_sha256": "09c309fdf9de7fe78997ef637cf46c64fe19e3f6f1211e9e4d0538e5dd545ec1",
+            "numeric_round_digits": 6
+          },
+          "YB-C1-1": {
+            "rows": 7609,
+            "sum_sha256": "98a46866f01968a0aa2ab790d666a82582bcde0946bff4ee1c9fe511b97475dd",
+            "numeric_round_digits": 6
+          },
+          "YB-C1-2": {
+            "rows": 5631,
+            "sum_sha256": "08c31190077bc72bed10a3a063816fec85bf3516a50215302d305ad38f488ac6",
+            "numeric_round_digits": 6
+          },
+          "YB-C1-3": {
+            "rows": 9344,
+            "sum_sha256": "5d0810e06e50f034389d5bce40c8ee6a4becf19c1e07a834420e3cc2476b5697",
+            "numeric_round_digits": 6
+          },
+          "YB-C1-4": {
+            "rows": 10311,
+            "sum_sha256": "5b0b91e9c125a01e26bbf611631558e65b1e8365359e559e605a4b40869c210d",
+            "numeric_round_digits": 6
+          },
+          "T-C1-1": {
+            "rows": 19319,
+            "sum_sha256": "69c0b149d60bf5496b3ca5ff6450ab62637449e94f620c372a37029554be9f68",
+            "numeric_round_digits": 6
+          },
+          "T-C1-2": {
+            "rows": 468889,
+            "sum_sha256": "2c25b0bcc5a6940f645f25023582492e54e539dd1dec55e9ff4df8ca25beaa75",
+            "numeric_round_digits": 6
+          },
+          "T-C1-3": {
+            "rows": 673562,
+            "sum_sha256": "74e89c6c1776f1bac478c67440409ba9e118333791cb0ee0e9244152d4bdb54a",
+            "numeric_round_digits": 6
+          },
+          "T-C1-4": {
+            "rows": 327513,
+            "sum_sha256": "2c77929736e240e56325bd4fbc530d700739b006acc015d59fd3af6f35064e58",
+            "numeric_round_digits": 6
+          },
+          "T-C2-1": {
+            "rows": 802,
+            "sum_sha256": "84232551f32db43efdb18b9eb5a463bfdf24e9c776b32ee15c7c347daf691817",
+            "numeric_round_digits": 6
+          },
+          "T-C2-2": {
+            "rows": 269940,
+            "sum_sha256": "172d3df5b6d074c6e1bcc2a818700f066429904982171899efc26e50f8cb60f4",
+            "numeric_round_digits": 6
+          },
+          "T-C2-3": {
+            "rows": 69108,
+            "sum_sha256": "2fe615d5466a38199d4e63b7dfc5704b9b0f2694e9f4f2248abef67792dc6285",
+            "numeric_round_digits": 6
+          },
+          "T-C2-4": {
+            "rows": 139339,
+            "sum_sha256": "72c6c16ec37fe7b0c169e6b64f5e6591c54ad5a24a9f273a6d13e9551018315a",
+            "numeric_round_digits": 6
+          },
+          "T-C3-1": {
+            "rows": 394486,
+            "sum_sha256": "34df1088ca888b2c8765ba1db9ccb3266803823e83cd9e5a6e97a86ea6894e1c",
+            "numeric_round_digits": 6
+          },
+          "T-C3-2": {
+            "rows": 116044,
+            "sum_sha256": "68dd416b5e623d493f1c45c6f749e09d14f209423fea15141c979f70854134dc",
+            "numeric_round_digits": 6
+          },
+          "T-C3-3": {
+            "rows": 64774,
+            "sum_sha256": "3f53755ca17409a2378dfc9f74932744b402ff913d9cd8e652e153fed9d9a412",
+            "numeric_round_digits": 6
+          },
+          "T-C3-4": {
+            "rows": 107044,
+            "sum_sha256": "80a9d1ad37b8e7470ec558f31329239531b211c320389f7dcb92c4d55e6aa03a",
+            "numeric_round_digits": 6
+          },
+          "T-C4-1": {
+            "rows": 253399,
+            "sum_sha256": "ee3e334a374bda49005d3672166ba5b690ce29d30ca12af59a34d710b38c8914",
+            "numeric_round_digits": 6
+          },
+          "T-C4-2": {
+            "rows": 139340,
+            "sum_sha256": "87c08521e972d13c7a82d774c9abbde6d2fcbbb47fd8bb61524aedb78ac15528",
+            "numeric_round_digits": 6
+          },
+          "T-C4-3": {
+            "rows": 67716,
+            "sum_sha256": "3ea88e15270c6a49494a7a92e742d5c681d73c3644a35fc33bb66f32fab63a2e",
+            "numeric_round_digits": 6
+          },
+          "T-C4-4": {
+            "rows": 42611,
+            "sum_sha256": "cda6bbefc5fcb1320be70973ee6ac2de86d764a3a31f66db32eee64c522a0b6f",
+            "numeric_round_digits": 6
+          },
+          "H-C1-1": {
+            "rows": 217683,
+            "sum_sha256": "57ad1ae920292a8107b4821d141c5e60f3ce9712b6ebcee6d508ac52574a9a31",
+            "numeric_round_digits": 6
+          },
+          "H-C1-2": {
+            "rows": 18400,
+            "sum_sha256": "9eb5dc18ef2268e6b2a93318118023cdd39687622c18272b34d9637e6ad57e3b",
+            "numeric_round_digits": 6
+          },
+          "H-C1-3": {
+            "rows": 109378,
+            "sum_sha256": "7f6631597e074f1143518b6ad18a088e9356b8b835f9f140353bdb915c4c82ed",
+            "numeric_round_digits": 6
+          },
+          "H-C1-4": {
+            "rows": 40158,
+            "sum_sha256": "4d62b1be689215a372c86568e68d8d1fd94832793abe318252143b40726228d9",
+            "numeric_round_digits": 6
+          },
+          "H-C2-1": {
+            "rows": 1375364,
+            "sum_sha256": "25bc32b6f447b24ac0471897fb85e7b3a6adaec2c6a06f1227fc9525b8d6b111",
+            "numeric_round_digits": 6
+          },
+          "H-C2-2": {
+            "rows": 645527,
+            "sum_sha256": "3720b1100f4a8bbda68446261ac531039aa4b7a8bebee3bc187f7d40f8587f27",
+            "numeric_round_digits": 6
+          },
+          "H-C2-3": {
+            "rows": 86624,
+            "sum_sha256": "5d81ff67c4acfb98eb9f5d812afc81b59efc2302d3de6db8e6c52d5601719094",
+            "numeric_round_digits": 6
+          },
+          "H-C2-4": {
+            "rows": 439881,
+            "sum_sha256": "dbf12a56c9ae5ddc07b4eb8b134f9cbf74880bf3a16ea8cef80cb59909584fc9",
+            "numeric_round_digits": 6
+          },
+          "H-C3-1": {
+            "rows": 321073,
+            "sum_sha256": "80179031c4cd991e2d664c1700eb9e320aabef27ec182a6b8051675aa3ffc95c",
+            "numeric_round_digits": 6
+          },
+          "H-C3-2": {
+            "rows": 148849,
+            "sum_sha256": "9f540ca8ae7341e868afa348e5fb2934d0bd0334503ad3a46ed0a27d1bfdb961",
+            "numeric_round_digits": 6
+          },
+          "H-C3-3": {
+            "rows": 29960,
+            "sum_sha256": "c041ef7134ff96cf0627ce2523a4225782351f9f616c6d44a0b39fef8cbd8a10",
+            "numeric_round_digits": 6
+          },
+          "H-C3-4": {
+            "rows": 632579,
+            "sum_sha256": "9a102f07c803aa671df560702545c5a1921e12e73696f231bd09a5c98ba5f24a",
+            "numeric_round_digits": 6
+          },
+          "H-C4-1": {
+            "rows": 1564864,
+            "sum_sha256": "7642e02e1aaf415c17cb5333bc8a61326b171403767005c99a3af81f0bf4b7b1",
+            "numeric_round_digits": 6
+          },
+          "H-C4-2": {
+            "rows": 1388490,
+            "sum_sha256": "6b0dbde85157df524662c9864b11723d2955b1d61c3d35bd9a06f7349a42e2e7",
+            "numeric_round_digits": 6
+          },
+          "H-C4-3": {
+            "rows": 633117,
+            "sum_sha256": "a2474f84e6c5a0a7fccb9bd496fe3d04ac0a381adbd12b15bdfa20b3e7379c83",
+            "numeric_round_digits": 6
+          },
+          "H-C4-4": {
+            "rows": 386412,
+            "sum_sha256": "38d20cc507351166b282e81d48d41a18d9d6805a860961a6acb2e57d7cb45014",
+            "numeric_round_digits": 6
+          },
+          "O-C1-1": {
+            "rows": 926,
+            "sum_sha256": "de62aa8e18bdc8a929e69aadf0342b175738a37e11ce141fe16daac40732c10b",
+            "numeric_round_digits": 6
+          },
+          "O-C1-2": {
+            "rows": 42897,
+            "sum_sha256": "1855dedbedb8e634943cc3f9380eebfa683fd784ac26874163bda65c88dd4d59",
+            "numeric_round_digits": 6
+          },
+          "O-C1-3": {
+            "rows": 842,
+            "sum_sha256": "90785ef0ec1bc8bc50e6b620c9f2f801f1d7586a6eaf035883fbfef08cb49e4e",
+            "numeric_round_digits": 6
+          },
+          "O-C1-4": {
+            "rows": 1609,
+            "sum_sha256": "e8c1362ae1534470b271aed998746088a74719451910e9d070d919c1b5bceaea",
+            "numeric_round_digits": 6
+          },
+          "O-C2-1": {
+            "rows": 28729,
+            "sum_sha256": "5d9c5733c517581f1cc989ddca145f3e0f638dac5287f66d70b07ba28bc3d851",
+            "numeric_round_digits": 6
+          },
+          "O-C2-2": {
+            "rows": 3050,
+            "sum_sha256": "ec7dba9483f563f66531f76989c8090106394917c1133107d9e1fd641143c556",
+            "numeric_round_digits": 6
+          },
+          "O-C2-3": {
+            "rows": 2994,
+            "sum_sha256": "007cef683244e9633d2edacebf9eec46f0420b438763b93d2ebbf6e6f4a65573",
+            "numeric_round_digits": 6
+          },
+          "O-C2-4": {
+            "rows": 3022,
+            "sum_sha256": "4b25207ee1960fb5baa08df74dd60f67039f2640a2f3e1877bc26ac7a0016f44",
+            "numeric_round_digits": 6
+          },
+          "O-C3-1": {
+            "rows": 44143,
+            "sum_sha256": "12cbbe32f12e567e07cd4d58a637cb55529a8eb68d9e633c4e14d023c10af7f5",
+            "numeric_round_digits": 6
+          },
+          "O-C3-2": {
+            "rows": 1385,
+            "sum_sha256": "21d7320d524e2511ec953ff46a73d07d0b9fa63c7c1b4b54f13a4f75970de8bb",
+            "numeric_round_digits": 6
+          },
+          "O-C3-3": {
+            "rows": 1353,
+            "sum_sha256": "daad5f6b22674caa9b793929a8070bef953c9918bda0dd112c5350e15d01d6cc",
+            "numeric_round_digits": 6
+          },
+          "O-C3-4": {
+            "rows": 2264,
+            "sum_sha256": "ac23ffebc31faf8506774e77a60f3556581759c599821ba710a2fe14ad8b3e84",
+            "numeric_round_digits": 6
+          },
+          "O-C4-1": {
+            "rows": 2620,
+            "sum_sha256": "26614d0425b44fe816b428e3bddda813a5cb5f8deeb9525bc54051caa85d9bb9",
+            "numeric_round_digits": 6
+          },
+          "O-C4-2": {
+            "rows": 944,
+            "sum_sha256": "9f9a13f6654ce9a0cf01f77b3d4e290184d11e6458b490ffea6a181d3c383796",
+            "numeric_round_digits": 6
+          },
+          "O-C4-3": {
+            "rows": 149,
+            "sum_sha256": "a2ae36ffaf34ebc292add10a5dd17e74b5a6a6876a4e7afa83071a2db918475e",
+            "numeric_round_digits": 6
+          },
+          "O-C4-4": {
+            "rows": 14213,
+            "sum_sha256": "4b2fa3a4ddc20ceae1de458c72d89ef022eb752e699a63562e3973967bc53178",
+            "numeric_round_digits": 6
+          }
+        }
+      }
+    }
+  },
+  "mixed": {
+    "measurements": {
+      "status": "ok",
+      "rows": 16244279,
+      "schemas": 100005,
+      "import_seconds": {
+        "specson": 207.130512482,
+        "specson-toast": 211.984509008,
+        "jsonb": 291.97246646099995,
+        "mongodb": 377.21994237,
+        "asterix": 686.522716732,
+        "umbra": 221.657820108,
+        "pg-gin": 1634.457221103
+      },
+      "restore_seconds": {
+        "specson": 108.083459558,
+        "specson-toast": 99.601883567,
+        "jsonb": 112.005648359,
+        "mongodb": 683.630960991,
+        "asterix": 955.502082854,
+        "umbra": 116.420471812,
+        "pg-gin": null
+      },
+      "schema_registration_seconds": {
+        "specson": 30.006776803,
+        "specson-toast": 31.531986765000003
+      },
+      "document_storage_bytes": {
+        "specson": 20503552000,
+        "specson-toast": 20249223168,
+        "jsonb": 31256641536,
+        "mongodb": 19679588352,
+        "asterix": 24513613309,
+        "umbra": 42484645888,
+        "pg-gin": 42237140992
+      },
+      "schema_storage_bytes": {
+        "specson": 3404177408,
+        "specson-toast": 3404177408,
+        "jsonb": 0,
+        "mongodb": 0,
+        "asterix": 0,
+        "umbra": 0,
+        "pg-gin": 0
+      },
+      "storage_bytes": {
+        "specson": 20503552000,
+        "specson-toast": 20249223168,
+        "jsonb": 31256641536,
+        "mongodb": 19679588352,
+        "asterix": 24513613309,
+        "umbra": 42484645888,
+        "pg-gin": 42237140992
+      },
+      "gin_index_bytes": 10980499456,
+      "gin_build_seconds": 1342.4847546419999,
+      "scope": "SpecSON storage excludes the shared schema store; insertion excludes schema registration. jsonb+GIN insertion adds the separately measured index build."
+    },
+    "queries": {
+      "status": "ok",
+      "baseline": "specson",
+      "queries": 68,
+      "all_results_match": true,
+      "summary": {
+        "specson": {
+          "sum_medians_ms": 76932.468766,
+          "geometric_mean_ratio": 1.0,
+          "baseline_faster": 0
+        },
+        "jsonb": {
+          "sum_medians_ms": 434513.779861,
+          "geometric_mean_ratio": 5.709184099316208,
+          "baseline_faster": 68
+        },
+        "umbra": {
+          "sum_medians_ms": 161409.494856,
+          "geometric_mean_ratio": 1.0505455024000354,
+          "baseline_faster": 26
+        },
+        "mongodb": {
+          "sum_medians_ms": 1453816.1658659999,
+          "geometric_mean_ratio": 19.679191138846026,
+          "baseline_faster": 68
+        },
+        "asterix": {
+          "sum_medians_ms": 1062744.610166,
+          "geometric_mean_ratio": 13.691582976043918,
+          "baseline_faster": 68
+        },
+        "specson-toast": {
+          "sum_medians_ms": 141404.613356,
+          "geometric_mean_ratio": 1.872805805903791,
+          "baseline_faster": 68
+        },
+        "pg-gin": {
+          "sum_medians_ms": 205926.210698,
+          "geometric_mean_ratio": 0.44197254739347624,
+          "baseline_faster": 33
+        }
+      },
+      "results": [
+        {
+          "dataset": "mixed",
+          "query": "G-C1-1",
+          "median_ms": {
+            "specson": 782.758415,
+            "jsonb": 5521.022974,
+            "umbra": 551.254854,
+            "mongodb": 19539.952961,
+            "asterix": 12164.158588,
+            "specson-toast": 1605.677599,
+            "pg-gin": 74.416711
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.0532911153692295,
+            "umbra": 0.7042464743097013,
+            "mongodb": 24.96294206048235,
+            "asterix": 15.540118579242613,
+            "specson-toast": 2.051306722777295,
+            "pg-gin": 0.0950698319864118
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "G-C1-2",
+          "median_ms": {
+            "specson": 768.292638,
+            "jsonb": 5436.863944,
+            "umbra": 518.061912,
+            "mongodb": 20238.297037,
+            "asterix": 13774.844525,
+            "specson-toast": 1570.951976,
+            "pg-gin": 4.672701
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.0765534837781425,
+            "umbra": 0.6743028455258997,
+            "mongodb": 26.34191196948577,
+            "asterix": 17.929163763508562,
+            "specson-toast": 2.0447312629331744,
+            "pg-gin": 0.006081928641362303
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "G-C1-3",
+          "median_ms": {
+            "specson": 777.000527,
+            "jsonb": 5529.359105,
+            "umbra": 551.090306,
+            "mongodb": 21383.049065,
+            "asterix": 12054.122207,
+            "specson-toast": 1576.87334,
+            "pg-gin": 72.93379
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.116287457807606,
+            "umbra": 0.7092534520250074,
+            "mongodb": 27.519993001240266,
+            "asterix": 15.513660271944707,
+            "specson-toast": 2.0294366415532687,
+            "pg-gin": 0.09386581793142078
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "G-C1-4",
+          "median_ms": {
+            "specson": 768.605963,
+            "jsonb": 5460.096954,
+            "umbra": 512.837208,
+            "mongodb": 19207.163568,
+            "asterix": 14944.474284,
+            "specson-toast": 1581.871308,
+            "pg-gin": 65.863641
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.103896166363726,
+            "umbra": 0.66723032696534,
+            "mongodb": 24.98961040196874,
+            "asterix": 19.44360960415812,
+            "specson-toast": 2.0581043917818267,
+            "pg-gin": 0.08569233673769976
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "G-C2-1",
+          "median_ms": {
+            "specson": 768.096301,
+            "jsonb": 5540.440628,
+            "umbra": 561.044959,
+            "mongodb": 21670.342003,
+            "asterix": 12089.016355,
+            "specson-toast": 1576.901954,
+            "pg-gin": 6.717521
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.21321092262362,
+            "umbra": 0.7304356996245969,
+            "mongodb": 28.213053460597255,
+            "asterix": 15.738933177078273,
+            "specson-toast": 2.0530003229373706,
+            "pg-gin": 0.008745675498312287
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "G-C2-2",
+          "median_ms": {
+            "specson": 767.472976,
+            "jsonb": 5526.979519,
+            "umbra": 563.53391,
+            "mongodb": 20951.052732,
+            "asterix": 13744.402765,
+            "specson-toast": 1609.315426,
+            "pg-gin": 5518.109094
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.201529815168372,
+            "umbra": 0.7342719908355444,
+            "mongodb": 27.298749776435123,
+            "asterix": 17.908647202973306,
+            "specson-toast": 2.0969017494109132,
+            "pg-gin": 7.189971851204309
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "G-C2-3",
+          "median_ms": {
+            "specson": 768.346158,
+            "jsonb": 5545.322691,
+            "umbra": 584.278991,
+            "mongodb": 21203.718263,
+            "asterix": 13644.02926,
+            "specson-toast": 1587.736748,
+            "pg-gin": 5513.245887
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.217219261477716,
+            "umbra": 0.7604371869586417,
+            "mongodb": 27.596569647973695,
+            "asterix": 17.757659250246423,
+            "specson-toast": 2.0664341605258603,
+            "pg-gin": 7.175471406469895
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "G-C2-4",
+          "median_ms": {
+            "specson": 768.471041,
+            "jsonb": 5541.40779,
+            "umbra": 583.476899,
+            "mongodb": 21476.656609,
+            "asterix": 13780.682308,
+            "specson-toast": 1580.852444,
+            "pg-gin": 5536.627094
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.210951999946606,
+            "umbra": 0.7592698590707206,
+            "mongodb": 27.947255606473792,
+            "asterix": 17.932598071707947,
+            "specson-toast": 2.0571399046382544,
+            "pg-gin": 7.204730950948092
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "G-C3-1",
+          "median_ms": {
+            "specson": 768.699988,
+            "jsonb": 5533.899959,
+            "umbra": 568.746171,
+            "mongodb": 21502.273533,
+            "asterix": 11952.223576,
+            "specson-toast": 1584.342194,
+            "pg-gin": 1.522845
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.199037394807402,
+            "umbra": 0.7398805514226182,
+            "mongodb": 27.972256886518906,
+            "asterix": 15.548619438771217,
+            "specson-toast": 2.0610670205968575,
+            "pg-gin": 0.001981065466076214
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "G-C3-2",
+          "median_ms": {
+            "specson": 768.974432,
+            "jsonb": 5599.447042,
+            "umbra": 559.221884,
+            "mongodb": 20885.656091,
+            "asterix": 12292.001757,
+            "specson-toast": 1586.679502,
+            "pg-gin": 20.765649
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.281707699222957,
+            "umbra": 0.727230790425032,
+            "mongodb": 27.16040380780827,
+            "asterix": 15.984929076289497,
+            "specson-toast": 2.063370947032996,
+            "pg-gin": 0.027004342583915715
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "G-C3-3",
+          "median_ms": {
+            "specson": 767.925241,
+            "jsonb": 5532.304842,
+            "umbra": 550.54197,
+            "mongodb": 20637.269263,
+            "asterix": 11915.302873,
+            "specson-toast": 1596.00768,
+            "pg-gin": 0.066154
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.20422320640975,
+            "umbra": 0.7169213103128095,
+            "mongodb": 26.874060339683506,
+            "asterix": 15.516227670135926,
+            "specson-toast": 2.0783373104413947,
+            "pg-gin": 8.614640653542472e-05
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "G-C3-4",
+          "median_ms": {
+            "specson": 769.032951,
+            "jsonb": 5524.707965,
+            "umbra": 572.837343,
+            "mongodb": 20467.588103,
+            "asterix": 12002.824509,
+            "specson-toast": 1584.299655,
+            "pg-gin": 1.233935
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.183967810242762,
+            "umbra": 0.7448801020230926,
+            "mongodb": 26.614708870907663,
+            "asterix": 15.607685591875242,
+            "specson-toast": 2.0601193394117647,
+            "pg-gin": 0.0016045281263897364
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "G-C4-1",
+          "median_ms": {
+            "specson": 775.607565,
+            "jsonb": 5578.624768,
+            "umbra": 587.293907,
+            "mongodb": 20708.051772,
+            "asterix": 15528.704812,
+            "specson-toast": 1600.033723,
+            "pg-gin": 11.104618
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.192586843837708,
+            "umbra": 0.7572049751732373,
+            "mongodb": 26.699135885813593,
+            "asterix": 20.021342638657732,
+            "specson-toast": 2.0629423889128775,
+            "pg-gin": 0.014317315226289729
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "G-C4-2",
+          "median_ms": {
+            "specson": 773.367159,
+            "jsonb": 5570.126873,
+            "umbra": 581.263473,
+            "mongodb": 21288.127901,
+            "asterix": 15519.22511,
+            "specson-toast": 1596.93833,
+            "pg-gin": 6.609008
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.202435231672412,
+            "umbra": 0.751600926203798,
+            "mongodb": 27.52654758255645,
+            "asterix": 20.06708576824892,
+            "specson-toast": 2.064916141596853,
+            "pg-gin": 0.008545757242324276
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "G-C4-3",
+          "median_ms": {
+            "specson": 775.708784,
+            "jsonb": 5545.422688,
+            "umbra": 590.379615,
+            "mongodb": 20646.140146,
+            "asterix": 15486.666966,
+            "specson-toast": 1598.017135,
+            "pg-gin": 15.691438
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.14884606489128,
+            "umbra": 0.7610840913205386,
+            "mongodb": 26.615839051785187,
+            "asterix": 19.96453731791182,
+            "specson-toast": 2.0600735326983224,
+            "pg-gin": 0.02022851658206825
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "G-C4-4",
+          "median_ms": {
+            "specson": 782.050713,
+            "jsonb": 5556.825794,
+            "umbra": 562.371683,
+            "mongodb": 21454.556461,
+            "asterix": 15609.859465,
+            "specson-toast": 1598.225164,
+            "pg-gin": 37.044184
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.105454546142713,
+            "umbra": 0.7190987408510936,
+            "mongodb": 27.433715108702934,
+            "asterix": 19.96016269216035,
+            "specson-toast": 2.043633663946292,
+            "pg-gin": 0.04736800745043244
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "YB-C1-1",
+          "median_ms": {
+            "specson": 736.983659,
+            "jsonb": 5432.254793,
+            "umbra": 453.211894,
+            "mongodb": 20804.157073,
+            "asterix": 14014.616489,
+            "specson-toast": 1540.01899,
+            "pg-gin": 130.268726
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.370929771185063,
+            "umbra": 0.6149551465156705,
+            "mongodb": 28.228790175929802,
+            "asterix": 19.016183490440188,
+            "specson-toast": 2.0896243372473475,
+            "pg-gin": 0.17675931400807354
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "YB-C1-2",
+          "median_ms": {
+            "specson": 735.928478,
+            "jsonb": 5401.617236,
+            "umbra": 502.079501,
+            "mongodb": 20819.942074,
+            "asterix": 13973.509836,
+            "specson-toast": 1536.136767,
+            "pg-gin": 9.284598
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.33986711681512,
+            "umbra": 0.6822395327932941,
+            "mongodb": 28.290713970712787,
+            "asterix": 18.987592210013645,
+            "specson-toast": 2.08734518763928,
+            "pg-gin": 0.012616168931568375
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "YB-C1-3",
+          "median_ms": {
+            "specson": 737.226644,
+            "jsonb": 5517.845102,
+            "umbra": 537.8284,
+            "mongodb": 21030.648305,
+            "asterix": 14951.527412,
+            "specson-toast": 1542.628847,
+            "pg-gin": 29.751949
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.484598049877319,
+            "umbra": 0.7295292490812364,
+            "mongodb": 28.526706781639323,
+            "asterix": 20.280774621596557,
+            "specson-toast": 2.0924757122587123,
+            "pg-gin": 0.04035658401949998
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "YB-C1-4",
+          "median_ms": {
+            "specson": 736.105098,
+            "jsonb": 5486.607933,
+            "umbra": 453.373046,
+            "mongodb": 21555.876989,
+            "asterix": 14944.818638,
+            "specson-toast": 1543.356287,
+            "pg-gin": 31.314609
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.453566002880747,
+            "umbra": 0.6159080370884756,
+            "mongodb": 29.283694743545983,
+            "asterix": 20.302560977508676,
+            "specson-toast": 2.096652082961121,
+            "pg-gin": 0.04254094841223339
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "T-C1-1",
+          "median_ms": {
+            "specson": 1638.744171,
+            "jsonb": 5643.550468,
+            "umbra": 628.699038,
+            "mongodb": 21539.896762,
+            "asterix": 12311.282735,
+            "specson-toast": 2525.893742,
+            "pg-gin": 109.598876
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 3.4438264177355844,
+            "umbra": 0.38364684929213394,
+            "mongodb": 13.144148515174184,
+            "asterix": 7.512632510227248,
+            "specson-toast": 1.5413594060009017,
+            "pg-gin": 0.06687979608990476
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "T-C1-2",
+          "median_ms": {
+            "specson": 1515.699272,
+            "jsonb": 5805.01432,
+            "umbra": 489.422868,
+            "mongodb": 21594.231868,
+            "asterix": 14017.033766,
+            "specson-toast": 2550.647852,
+            "pg-gin": 5780.256393
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 3.8299248586034818,
+            "umbra": 0.322902357374755,
+            "mongodb": 14.247042448932442,
+            "asterix": 9.247898989556287,
+            "specson-toast": 1.6828192103268358,
+            "pg-gin": 3.8135905319614083
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "T-C1-3",
+          "median_ms": {
+            "specson": 1469.146762,
+            "jsonb": 5799.096016,
+            "umbra": 655.99113,
+            "mongodb": 22656.6528,
+            "asterix": 12605.215779,
+            "specson-toast": 2542.124246,
+            "pg-gin": 5372.353573
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 3.9472543969027925,
+            "umbra": 0.4465116399310418,
+            "mongodb": 15.421640224123504,
+            "asterix": 8.579956819181282,
+            "specson-toast": 1.7303405702908254,
+            "pg-gin": 3.6567848168459567
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "T-C1-4",
+          "median_ms": {
+            "specson": 1430.967518,
+            "jsonb": 5734.889323,
+            "umbra": 597.267544,
+            "mongodb": 20834.958838,
+            "asterix": 14046.943159,
+            "specson-toast": 2533.391049,
+            "pg-gin": 2633.691763
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 4.007700559838984,
+            "umbra": 0.4173872128381883,
+            "mongodb": 14.56005015901416,
+            "asterix": 9.816395538196977,
+            "specson-toast": 1.7704043013784188,
+            "pg-gin": 1.8404972369191122
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "T-C2-1",
+          "median_ms": {
+            "specson": 1407.586372,
+            "jsonb": 5592.254333,
+            "umbra": 738.968736,
+            "mongodb": 20808.844552,
+            "asterix": 13342.265341,
+            "specson-toast": 2546.831502,
+            "pg-gin": 2.055
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 3.97293867306638,
+            "umbra": 0.5249899762456638,
+            "mongodb": 14.78335181835648,
+            "asterix": 9.478825318578746,
+            "specson-toast": 1.8093607274566594,
+            "pg-gin": 0.001459945933605558
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "T-C2-2",
+          "median_ms": {
+            "specson": 1439.575541,
+            "jsonb": 5561.766957,
+            "umbra": 1688.431556,
+            "mongodb": 19683.253898,
+            "asterix": 13380.962221,
+            "specson-toast": 2575.042162,
+            "pg-gin": 1246.297959
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 3.8634769753982643,
+            "umbra": 1.172867632098787,
+            "mongodb": 13.672956602421186,
+            "asterix": 9.295074721611988,
+            "specson-toast": 1.7887509815645029,
+            "pg-gin": 0.8657398820031772
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "T-C2-3",
+          "median_ms": {
+            "specson": 1433.690645,
+            "jsonb": 6324.424617,
+            "umbra": 1755.001565,
+            "mongodb": 21358.150977,
+            "asterix": 13283.104166,
+            "specson-toast": 2576.879314,
+            "pg-gin": 6683.55079
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 4.411289589603202,
+            "umbra": 1.2241145404139817,
+            "mongodb": 14.897321853557887,
+            "asterix": 9.26497233718087,
+            "specson-toast": 1.7973747146826085,
+            "pg-gin": 4.661780289429175
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "T-C2-4",
+          "median_ms": {
+            "specson": 1442.858255,
+            "jsonb": 6340.574542,
+            "umbra": 1754.430075,
+            "mongodb": 21324.158588,
+            "asterix": 13437.034841,
+            "specson-toast": 2569.533217,
+            "pg-gin": 6683.995891
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 4.394454216155834,
+            "umbra": 1.2159406989011543,
+            "mongodb": 14.779108421845635,
+            "asterix": 9.31278924623126,
+            "specson-toast": 1.78086323316631,
+            "pg-gin": 4.632468829032689
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "T-C3-1",
+          "median_ms": {
+            "specson": 1467.798603,
+            "jsonb": 5633.708356,
+            "umbra": 2010.258398,
+            "mongodb": 21541.356205,
+            "asterix": 12317.315784,
+            "specson-toast": 2586.813384,
+            "pg-gin": 3107.932229
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 3.8382025602731824,
+            "umbra": 1.3695737234599343,
+            "mongodb": 14.675961784520107,
+            "asterix": 8.39169335549504,
+            "specson-toast": 1.7623762406592236,
+            "pg-gin": 2.117410537554518
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "T-C3-2",
+          "median_ms": {
+            "specson": 1439.721254,
+            "jsonb": 5578.221283,
+            "umbra": 2006.440879,
+            "mongodb": 20235.629301,
+            "asterix": 12209.019761,
+            "specson-toast": 2573.454925,
+            "pg-gin": 1282.983703
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 3.874514783679091,
+            "umbra": 1.3936314918082051,
+            "mongodb": 14.05524107168595,
+            "asterix": 8.48012747403672,
+            "specson-toast": 1.7874674822297232,
+            "pg-gin": 0.8911334047722547
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "T-C3-3",
+          "median_ms": {
+            "specson": 1438.704273,
+            "jsonb": 5556.92535,
+            "umbra": 2304.997893,
+            "mongodb": 21483.062866,
+            "asterix": 12234.833885,
+            "specson-toast": 2567.314212,
+            "pg-gin": 1284.065735
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 3.862451411513949,
+            "umbra": 1.602134598650768,
+            "mongodb": 14.93222983289214,
+            "asterix": 8.504064465929337,
+            "specson-toast": 1.7844627698551363,
+            "pg-gin": 0.8925154106357477
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "T-C3-4",
+          "median_ms": {
+            "specson": 1668.989941,
+            "jsonb": 5641.964838,
+            "umbra": 1148.878526,
+            "mongodb": 22985.373153,
+            "asterix": 12606.740855,
+            "specson-toast": 2567.252827,
+            "pg-gin": 2583.023724
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 3.380466651955693,
+            "umbra": 0.6883675555957111,
+            "mongodb": 13.772026174841997,
+            "asterix": 7.553515180233192,
+            "specson-toast": 1.5382074894123041,
+            "pg-gin": 1.5476568555304433
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "T-C4-1",
+          "median_ms": {
+            "specson": 1542.585536,
+            "jsonb": 10279.724879,
+            "umbra": 1799.023437,
+            "mongodb": 23041.452326,
+            "asterix": 17819.271008,
+            "specson-toast": 2997.257734,
+            "pg-gin": 8068.884705
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 6.663957776795853,
+            "umbra": 1.1662390156107363,
+            "mongodb": 14.936904170479657,
+            "asterix": 11.551561059107454,
+            "specson-toast": 1.9430091000153134,
+            "pg-gin": 5.230753508763614
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "T-C4-2",
+          "median_ms": {
+            "specson": 1547.876131,
+            "jsonb": 7546.309325,
+            "umbra": 2015.297545,
+            "mongodb": 21563.726148,
+            "asterix": 17489.818745,
+            "specson-toast": 3007.92279,
+            "pg-gin": 1228.39001
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 4.87526693762293,
+            "umbra": 1.3019759815651553,
+            "mongodb": 13.931170405779712,
+            "asterix": 11.299236673221884,
+            "specson-toast": 1.943258074570051,
+            "pg-gin": 0.7935971008264098
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "T-C4-3",
+          "median_ms": {
+            "specson": 1752.719644,
+            "jsonb": 7570.070264,
+            "umbra": 1163.587312,
+            "mongodb": 21775.299945,
+            "asterix": 16508.743283,
+            "specson-toast": 2983.343787,
+            "pg-gin": 1020.03158
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 4.319042289458131,
+            "umbra": 0.6638753185560805,
+            "mongodb": 12.42372105518548,
+            "asterix": 9.418929798335734,
+            "specson-toast": 1.702122639643331,
+            "pg-gin": 0.5819707581254221
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "T-C4-4",
+          "median_ms": {
+            "specson": 1535.879145,
+            "jsonb": 6719.412161,
+            "umbra": 833.283344,
+            "mongodb": 21857.590013,
+            "asterix": 17413.480192,
+            "specson-toast": 2942.735574,
+            "pg-gin": 1776.701551
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 4.374961521467888,
+            "umbra": 0.5425448654034559,
+            "mongodb": 14.23132157511,
+            "asterix": 11.337793242840078,
+            "specson-toast": 1.9159942262253973,
+            "pg-gin": 1.156797757677737
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "H-C1-1",
+          "median_ms": {
+            "specson": 1162.424369,
+            "jsonb": 5677.663823,
+            "umbra": 510.2272,
+            "mongodb": 21182.49114,
+            "asterix": 13927.524036,
+            "specson-toast": 2170.323079,
+            "pg-gin": 2921.144132
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 4.884329659988399,
+            "umbra": 0.43893367483248275,
+            "mongodb": 18.22268330302012,
+            "asterix": 11.98144533736973,
+            "specson-toast": 1.8670660533958572,
+            "pg-gin": 2.5129756480526777
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "H-C1-2",
+          "median_ms": {
+            "specson": 1159.637942,
+            "jsonb": 5701.145679,
+            "umbra": 487.947986,
+            "mongodb": 19455.274318,
+            "asterix": 14754.766658,
+            "specson-toast": 2159.400251,
+            "pg-gin": 1269.931366
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 4.916315232983296,
+            "umbra": 0.42077614773318617,
+            "mongodb": 16.777024632745242,
+            "asterix": 12.723597705463831,
+            "specson-toast": 1.862133147588922,
+            "pg-gin": 1.0951102236356458
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "H-C1-3",
+          "median_ms": {
+            "specson": 1156.332907,
+            "jsonb": 5728.618099,
+            "umbra": 514.654111,
+            "mongodb": 21533.155027,
+            "asterix": 14627.150975,
+            "specson-toast": 2215.199616,
+            "pg-gin": 6124.679537
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 4.954125290667699,
+            "umbra": 0.4450743448400366,
+            "mongodb": 18.621933957467146,
+            "asterix": 12.64960193249953,
+            "specson-toast": 1.9157109536449437,
+            "pg-gin": 5.296640353243878
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "H-C1-4",
+          "median_ms": {
+            "specson": 1183.030769,
+            "jsonb": 5696.828174,
+            "umbra": 477.686158,
+            "mongodb": 20869.447156,
+            "asterix": 14264.84265,
+            "specson-toast": 2235.600544,
+            "pg-gin": 301.575117
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 4.815452246280502,
+            "umbra": 0.4037816855801491,
+            "mongodb": 17.640663035028805,
+            "asterix": 12.057879662806979,
+            "specson-toast": 1.889723076171318,
+            "pg-gin": 0.25491739091022747
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "H-C2-1",
+          "median_ms": {
+            "specson": 1380.684267,
+            "jsonb": 5598.717336,
+            "umbra": 7931.384075,
+            "mongodb": 22962.765985,
+            "asterix": 13202.913118,
+            "specson-toast": 2222.102364,
+            "pg-gin": 6051.514035
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 4.055030878395603,
+            "umbra": 5.74453136359234,
+            "mongodb": 16.631438869723862,
+            "asterix": 9.56258677929876,
+            "specson-toast": 1.609421079902839,
+            "pg-gin": 4.382981815349388
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "H-C2-2",
+          "median_ms": {
+            "specson": 1368.229909,
+            "jsonb": 5630.093375,
+            "umbra": 7819.928065,
+            "mongodb": 21844.243268,
+            "asterix": 12752.027822,
+            "specson-toast": 2200.280952,
+            "pg-gin": 2787.029851
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 4.114873778131977,
+            "umbra": 5.71536114914734,
+            "mongodb": 15.96533091720333,
+            "asterix": 9.320091410163728,
+            "specson-toast": 1.6081222443150087,
+            "pg-gin": 2.03696018678393
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "H-C2-3",
+          "median_ms": {
+            "specson": 1349.382994,
+            "jsonb": 11508.905381,
+            "umbra": 7855.872571,
+            "mongodb": 22352.654076,
+            "asterix": 14115.496613,
+            "specson-toast": 2193.780667,
+            "pg-gin": 11905.430475
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 8.529013209870051,
+            "umbra": 5.821825683242603,
+            "mongodb": 16.56509247218214,
+            "asterix": 10.460704392870094,
+            "specson-toast": 1.6257657586871885,
+            "pg-gin": 8.822869806376112
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "H-C2-4",
+          "median_ms": {
+            "specson": 1360.582069,
+            "jsonb": 11635.18436,
+            "umbra": 7856.356327,
+            "mongodb": 22702.648008,
+            "asterix": 14350.279783,
+            "specson-toast": 2194.926328,
+            "pg-gin": 12007.463495
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 8.55162259234507,
+            "umbra": 5.774261256268254,
+            "mongodb": 16.685982069928336,
+            "asterix": 10.547162210911072,
+            "specson-toast": 1.6132259699800586,
+            "pg-gin": 8.825240144334138
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "H-C3-1",
+          "median_ms": {
+            "specson": 1363.458122,
+            "jsonb": 5593.02721,
+            "umbra": 9418.759061,
+            "mongodb": 20754.202421,
+            "asterix": 12695.903374,
+            "specson-toast": 2200.610037,
+            "pg-gin": 3025.951436
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 4.102089473636213,
+            "umbra": 6.907992925506223,
+            "mongodb": 15.221738083569832,
+            "asterix": 9.311546258110889,
+            "specson-toast": 1.61399165951061,
+            "pg-gin": 2.219321141716738
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "H-C3-2",
+          "median_ms": {
+            "specson": 1368.021819,
+            "jsonb": 5651.378968,
+            "umbra": 13253.150471,
+            "mongodb": 20676.545849,
+            "asterix": 13000.769243,
+            "specson-toast": 2185.147947,
+            "pg-gin": 1207.919502
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 4.131059088027601,
+            "umbra": 9.687820974001585,
+            "mongodb": 15.114193035396314,
+            "asterix": 9.50333471472212,
+            "specson-toast": 1.597304894301543,
+            "pg-gin": 0.8829680091527838
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "H-C3-3",
+          "median_ms": {
+            "specson": 1353.446987,
+            "jsonb": 5650.633332,
+            "umbra": 11273.606464,
+            "mongodb": 20913.907489,
+            "asterix": 13005.337178,
+            "specson-toast": 2180.944674,
+            "pg-gin": 1202.581529
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 4.174994208325058,
+            "umbra": 8.329551561519713,
+            "mongodb": 15.452328528476011,
+            "asterix": 9.609048084570452,
+            "specson-toast": 1.6114001471414852,
+            "pg-gin": 0.8885324216987599
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "H-C3-4",
+          "median_ms": {
+            "specson": 1452.39383,
+            "jsonb": 5668.297473,
+            "umbra": 11750.559468,
+            "mongodb": 21947.137624,
+            "asterix": 16478.95625,
+            "specson-toast": 2217.026961,
+            "pg-gin": 3201.875725
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 3.9027275907664793,
+            "umbra": 8.0904774072195,
+            "mongodb": 15.111009955199272,
+            "asterix": 11.346065997815481,
+            "specson-toast": 1.5264640452238771,
+            "pg-gin": 2.2045506245368722
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "H-C4-1",
+          "median_ms": {
+            "specson": 1913.125167,
+            "jsonb": 13486.546874,
+            "umbra": 12737.650567,
+            "mongodb": 26189.325155,
+            "asterix": 20476.232381,
+            "specson-toast": 3017.324576,
+            "pg-gin": 9258.686034
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.049484846382767,
+            "umbra": 6.658033037626127,
+            "mongodb": 13.689289967403372,
+            "asterix": 10.703028078977752,
+            "specson-toast": 1.577170499895473,
+            "pg-gin": 4.839561045824662
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "H-C4-2",
+          "median_ms": {
+            "specson": 1702.286664,
+            "jsonb": 13540.941813,
+            "umbra": 6716.922949,
+            "mongodb": 26542.745804,
+            "asterix": 18088.873738,
+            "specson-toast": 2903.499305,
+            "pg-gin": 13423.830152
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.954560239097309,
+            "umbra": 3.945823633028238,
+            "mongodb": 15.592406593628814,
+            "asterix": 10.626220671608339,
+            "specson-toast": 1.7056465085483392,
+            "pg-gin": 7.885763564908008
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "H-C4-3",
+          "median_ms": {
+            "specson": 1600.635577,
+            "jsonb": 11694.520281,
+            "umbra": 12291.612076,
+            "mongodb": 24098.101427,
+            "asterix": 17959.635386,
+            "specson-toast": 2677.655615,
+            "pg-gin": 11017.996892
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.306172903465333,
+            "umbra": 7.679207092870959,
+            "mongodb": 15.0553328773099,
+            "asterix": 11.220315007405338,
+            "specson-toast": 1.6728702357213694,
+            "pg-gin": 6.883513680640874
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "H-C4-4",
+          "median_ms": {
+            "specson": 1375.416796,
+            "jsonb": 10075.779058,
+            "umbra": 4854.754777,
+            "mongodb": 24342.686466,
+            "asterix": 18017.270192,
+            "specson-toast": 2616.082121,
+            "pg-gin": 8500.365048
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.325618741389865,
+            "umbra": 3.5296608207189584,
+            "mongodb": 17.698407156865926,
+            "asterix": 13.099498453412808,
+            "specson-toast": 1.9020286276917038,
+            "pg-gin": 6.180210298958716
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "O-C1-1",
+          "median_ms": {
+            "specson": 942.527129,
+            "jsonb": 5626.737621,
+            "umbra": 500.83464,
+            "mongodb": 21358.810663,
+            "asterix": 14113.778806,
+            "specson-toast": 1813.360676,
+            "pg-gin": 5855.004503
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 5.969841554555403,
+            "umbra": 0.5313742433402148,
+            "mongodb": 22.661215795094638,
+            "asterix": 14.974400599985277,
+            "specson-toast": 1.9239347284612751,
+            "pg-gin": 6.212027561702153
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "O-C1-2",
+          "median_ms": {
+            "specson": 945.602044,
+            "jsonb": 5663.156514,
+            "umbra": 520.657503,
+            "mongodb": 20353.477772,
+            "asterix": 14493.972886,
+            "specson-toast": 1809.801105,
+            "pg-gin": 993.870911
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 5.988942758672802,
+            "umbra": 0.5506095363304863,
+            "mongodb": 21.524358900391714,
+            "asterix": 15.32777237313163,
+            "specson-toast": 1.913914121150102,
+            "pg-gin": 1.0510456457938875
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "O-C1-3",
+          "median_ms": {
+            "specson": 942.83291,
+            "jsonb": 5599.983798,
+            "umbra": 439.60902,
+            "mongodb": 22454.217399,
+            "asterix": 14124.287937,
+            "specson-toast": 1818.116962,
+            "pg-gin": 5783.51451
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 5.939529410359679,
+            "umbra": 0.4662639745996987,
+            "mongodb": 23.81569115889262,
+            "asterix": 14.980690414168933,
+            "specson-toast": 1.9283554304441919,
+            "pg-gin": 6.134188198840026
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "O-C1-4",
+          "median_ms": {
+            "specson": 942.020032,
+            "jsonb": 5425.059467,
+            "umbra": 456.774717,
+            "mongodb": 21657.789085,
+            "asterix": 14105.172518,
+            "specson-toast": 1807.456965,
+            "pg-gin": 90.860344
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 5.7589640163830405,
+            "umbra": 0.4848885389732349,
+            "mongodb": 22.99079462144601,
+            "asterix": 14.97332544834885,
+            "specson-toast": 1.9187033222240437,
+            "pg-gin": 0.09645266651824236
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "O-C2-1",
+          "median_ms": {
+            "specson": 984.843694,
+            "jsonb": 5751.904949,
+            "umbra": 448.526439,
+            "mongodb": 20934.437376,
+            "asterix": 13785.376769,
+            "specson-toast": 1845.236273,
+            "pg-gin": 262.526709
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 5.840424205427262,
+            "umbra": 0.4554290612130375,
+            "mongodb": 21.256609047242375,
+            "asterix": 13.997527580249704,
+            "specson-toast": 1.873633637745565,
+            "pg-gin": 0.2665668781750863
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "O-C2-2",
+          "median_ms": {
+            "specson": 951.614678,
+            "jsonb": 5435.411966,
+            "umbra": 483.564367,
+            "mongodb": 20024.839934,
+            "asterix": 13763.438234,
+            "specson-toast": 1815.261277,
+            "pg-gin": 5606.656207
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 5.711778193063978,
+            "umbra": 0.5081514379499724,
+            "mongodb": 21.0430128884582,
+            "asterix": 14.463247102205793,
+            "specson-toast": 1.9075591402342786,
+            "pg-gin": 5.891729432740002
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "O-C2-3",
+          "median_ms": {
+            "specson": 979.191283,
+            "jsonb": 7188.128521,
+            "umbra": 488.427574,
+            "mongodb": 21540.097167,
+            "asterix": 13897.579327,
+            "specson-toast": 1815.248853,
+            "pg-gin": 7291.023509
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.340882875281887,
+            "umbra": 0.4988071099893564,
+            "mongodb": 21.9978440790511,
+            "asterix": 14.192915693061781,
+            "specson-toast": 1.8538245637139725,
+            "pg-gin": 7.445964476585317
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "O-C2-4",
+          "median_ms": {
+            "specson": 979.518916,
+            "jsonb": 7199.073959,
+            "umbra": 488.310114,
+            "mongodb": 20212.494926,
+            "asterix": 13841.473865,
+            "specson-toast": 1817.544092,
+            "pg-gin": 7250.350736
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.349601770222476,
+            "umbra": 0.4985203511883991,
+            "mongodb": 20.635124647250812,
+            "asterix": 14.13088980611376,
+            "specson-toast": 1.8555477207343694,
+            "pg-gin": 7.40195071026071
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "O-C3-1",
+          "median_ms": {
+            "specson": 1002.298117,
+            "jsonb": 5815.372037,
+            "umbra": 1049.858966,
+            "mongodb": 20678.185479,
+            "asterix": 13713.358156,
+            "specson-toast": 1822.8788,
+            "pg-gin": 420.350549
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 5.802038274207393,
+            "umbra": 1.0474517992135468,
+            "mongodb": 20.63077354758714,
+            "asterix": 13.68191551336617,
+            "specson-toast": 1.8186992164128748,
+            "pg-gin": 0.4193867491821298
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "O-C3-2",
+          "median_ms": {
+            "specson": 956.618408,
+            "jsonb": 5476.159355,
+            "umbra": 1695.83497,
+            "mongodb": 20139.095887,
+            "asterix": 20191.436809,
+            "specson-toast": 1823.870482,
+            "pg-gin": 29.406544
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 5.7244971549826165,
+            "umbra": 1.772739219544686,
+            "mongodb": 21.052381721469025,
+            "asterix": 21.10709624667812,
+            "specson-toast": 1.9065810011048836,
+            "pg-gin": 0.030740098407138323
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "O-C3-3",
+          "median_ms": {
+            "specson": 972.65434,
+            "jsonb": 5462.402111,
+            "umbra": 1810.550364,
+            "mongodb": 20815.8173,
+            "asterix": 19997.302333,
+            "specson-toast": 1830.46813,
+            "pg-gin": 21.985998
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 5.6159746441886025,
+            "umbra": 1.861453025542455,
+            "mongodb": 21.401042943991797,
+            "asterix": 20.559515863569786,
+            "specson-toast": 1.88193076895128,
+            "pg-gin": 0.022604122652657876
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "O-C3-4",
+          "median_ms": {
+            "specson": 954.496173,
+            "jsonb": 5745.19866,
+            "umbra": 486.963131,
+            "mongodb": 19328.534867,
+            "asterix": 13695.583318,
+            "specson-toast": 1819.693047,
+            "pg-gin": 5773.17387
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 6.019090303885378,
+            "umbra": 0.5101781911492274,
+            "mongodb": 20.24998676134032,
+            "asterix": 14.348494740376504,
+            "specson-toast": 1.9064435232680603,
+            "pg-gin": 6.048399179909546
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "O-C4-1",
+          "median_ms": {
+            "specson": 897.425561,
+            "jsonb": 5897.468123,
+            "umbra": 497.665495,
+            "mongodb": 20879.846751,
+            "asterix": 15665.594093,
+            "specson-toast": 1924.036494,
+            "pg-gin": 5918.219385
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 6.5715401692241295,
+            "umbra": 0.5545479387119886,
+            "mongodb": 23.26638292733006,
+            "asterix": 17.456148759061254,
+            "specson-toast": 2.1439510725057227,
+            "pg-gin": 6.594663270350063
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "O-C4-2",
+          "median_ms": {
+            "specson": 906.579344,
+            "jsonb": 5521.048903,
+            "umbra": 933.037028,
+            "mongodb": 21435.565856,
+            "asterix": 80355.595464,
+            "specson-toast": 1933.888612,
+            "pg-gin": 55.083478
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 6.089978709022958,
+            "umbra": 1.0291840798878824,
+            "mongodb": 23.644445461797332,
+            "asterix": 88.63603168968739,
+            "specson-toast": 2.133170830329441,
+            "pg-gin": 0.060759687902176604
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "O-C4-3",
+          "median_ms": {
+            "specson": 902.139829,
+            "jsonb": 6466.135988,
+            "umbra": 1701.685917,
+            "mongodb": 21472.785419,
+            "asterix": 23757.122139,
+            "specson-toast": 1935.20956,
+            "pg-gin": 26.188542
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 7.167554053308515,
+            "umbra": 1.8862773400507962,
+            "mongodb": 23.8020589810363,
+            "asterix": 26.334190527131685,
+            "specson-toast": 2.145132603384924,
+            "pg-gin": 0.029029360148115135
+          }
+        },
+        {
+          "dataset": "mixed",
+          "query": "O-C4-4",
+          "median_ms": {
+            "specson": 953.818326,
+            "jsonb": 5993.171021,
+            "umbra": 1121.414513,
+            "mongodb": 20408.680583,
+            "asterix": 22115.480859,
+            "specson-toast": 1939.333605,
+            "pg-gin": 388.962943
+          },
+          "ratios_to_baseline": {
+            "specson": 1.0,
+            "jsonb": 6.283346479757195,
+            "umbra": 1.175710806168763,
+            "mongodb": 21.3968216238697,
+            "asterix": 23.18626121574435,
+            "specson-toast": 2.033231646044092,
+            "pg-gin": 0.40779562773886147
+          }
+        }
+      ],
+      "reference": {
+        "system": "jsonb",
+        "warmups": 1,
+        "runs": 3,
+        "signatures": {
+          "G-C1-1": {
+            "rows": 1668,
+            "sum_sha256": "8713c8081c3ac94b6d1300193d0b725c875aa12433e9883abed086205a3c828a",
+            "numeric_round_digits": 6
+          },
+          "G-C1-2": {
+            "rows": 604,
+            "sum_sha256": "a99fa74157ec145969a20bf8fb3426ae2e8fdde7dfe5b5f2edf4aeb8c095bbd6",
+            "numeric_round_digits": 6
+          },
+          "G-C1-3": {
+            "rows": 90,
+            "sum_sha256": "6b6337f1b5aa11e260783ce90859a0d2f18aad543acf48350a6f5a88eaa66c27",
+            "numeric_round_digits": 6
+          },
+          "G-C1-4": {
+            "rows": 2867,
+            "sum_sha256": "e1407ce10494fed9ff563638619fcd96f2091799041e4434c52528afd9d3e097",
+            "numeric_round_digits": 6
+          },
+          "G-C2-1": {
+            "rows": 1572,
+            "sum_sha256": "55d4af0f6734afe8654dafc0544127892c7a56c8b2aa1e4022f1318f9c8837c4",
+            "numeric_round_digits": 6
+          },
+          "G-C2-2": {
+            "rows": 326,
+            "sum_sha256": "b211d4503574c6d2f411b96293ee7e2bac947c92fe37d1f9e95f3a15e34dc848",
+            "numeric_round_digits": 6
+          },
+          "G-C2-3": {
+            "rows": 564,
+            "sum_sha256": "a2da6af80163e66ba639405a72dd3d617374df0d60de471e1691f81fe48e02b2",
+            "numeric_round_digits": 6
+          },
+          "G-C2-4": {
+            "rows": 859,
+            "sum_sha256": "933b986661fa6a95f767838c47f0900c6c17b204d02ba4c64005fe1ff30db8ee",
+            "numeric_round_digits": 6
+          },
+          "G-C3-1": {
+            "rows": 252,
+            "sum_sha256": "428eec9f4e9f78886c1fd63992bba614c6f6ac25777e740212ca5131e809c96b",
+            "numeric_round_digits": 6
+          },
+          "G-C3-2": {
+            "rows": 2058,
+            "sum_sha256": "62dd8addf3d65aafc9fdc342389dd1bff2e009c1b001e2e34d27f678bfd8ed74",
+            "numeric_round_digits": 6
+          },
+          "G-C3-3": {
+            "rows": 14,
+            "sum_sha256": "a5f86ee2fd0758853f51a4af676caaeff3be4167a8ea64fd3ea9e1c98dce3fb5",
+            "numeric_round_digits": 6
+          },
+          "G-C3-4": {
+            "rows": 322,
+            "sum_sha256": "66d2f36d93894b9e9014e0090bb0b8399e947a5cb62ee61a25b541b740daa665",
+            "numeric_round_digits": 6
+          },
+          "G-C4-1": {
+            "rows": 461,
+            "sum_sha256": "1094f0c3ee40c6ff4611637672b1d638fec544357cf9006214a3b58a9644b8c1",
+            "numeric_round_digits": 6
+          },
+          "G-C4-2": {
+            "rows": 242,
+            "sum_sha256": "91068e6bff350bf6c013ccb88c23dd40727e5519ecd83d5b40edd306bf35ffc9",
+            "numeric_round_digits": 6
+          },
+          "G-C4-3": {
+            "rows": 977,
+            "sum_sha256": "029a1d83ca3a39e46078445b3de5e875daa3b1ac6f4a9877a017707b3ad28d52",
+            "numeric_round_digits": 6
+          },
+          "G-C4-4": {
+            "rows": 121,
+            "sum_sha256": "3a9eb3f7caa954ccbadfff7798b1bdeba57a4ea0e51d9597b88855e969816df8",
+            "numeric_round_digits": 6
+          },
+          "YB-C1-1": {
+            "rows": 7609,
+            "sum_sha256": "efaedde64076f095a6faa32c2d04789966d2f9048a33ee4d3b3abc1f711275fc",
+            "numeric_round_digits": 6
+          },
+          "YB-C1-2": {
+            "rows": 5631,
+            "sum_sha256": "c0b014d2b23cce4aa817b9d063ddb41235aa4cd8e9698e9e408b8ebe202431ec",
+            "numeric_round_digits": 6
+          },
+          "YB-C1-3": {
+            "rows": 9344,
+            "sum_sha256": "0c25d83bdecd473dbe530be664b7c719f332d56ea5fc607fffdae5a136ae051c",
+            "numeric_round_digits": 6
+          },
+          "YB-C1-4": {
+            "rows": 10311,
+            "sum_sha256": "6e980d57785e622562bf65c5af2cf95369fef9c98b3db807157b4c47831b639d",
+            "numeric_round_digits": 6
+          },
+          "T-C1-1": {
+            "rows": 19319,
+            "sum_sha256": "6af3fd302ca72f92945ff106a84c94a5bfabfad1458d42b3e0bac8fd36051f4c",
+            "numeric_round_digits": 6
+          },
+          "T-C1-2": {
+            "rows": 468889,
+            "sum_sha256": "86db79ef6993b5da34029865043e7959bc7060357a5ebc2bc63a2cc977fda4c9",
+            "numeric_round_digits": 6
+          },
+          "T-C1-3": {
+            "rows": 673562,
+            "sum_sha256": "b6b4c54d79cfd589b717ecd0eaa8040b6f0096ac6a7b74538e0502e8b3805490",
+            "numeric_round_digits": 6
+          },
+          "T-C1-4": {
+            "rows": 327513,
+            "sum_sha256": "81aa739d2f38b05c54abbc5bc4738e9ffd67e6fff11ec5048ae3183f32f92500",
+            "numeric_round_digits": 6
+          },
+          "T-C2-1": {
+            "rows": 802,
+            "sum_sha256": "4e5a3d34f7f83f1844e95a99d33ab0a3774b3ea8d02594dcd561a73614837fb7",
+            "numeric_round_digits": 6
+          },
+          "T-C2-2": {
+            "rows": 269940,
+            "sum_sha256": "881a9b8ec4d5212cef918df94253976f173844a31abc015d48ff78adbc843285",
+            "numeric_round_digits": 6
+          },
+          "T-C2-3": {
+            "rows": 69108,
+            "sum_sha256": "9d5fe7286c8e24cf3bf2749feff3366187afe9c40935fdcd00dd2fbb78aca167",
+            "numeric_round_digits": 6
+          },
+          "T-C2-4": {
+            "rows": 139339,
+            "sum_sha256": "8a2657df854d3e5c0741d34230c2100c0204f05c486e07513e08440658cc0674",
+            "numeric_round_digits": 6
+          },
+          "T-C3-1": {
+            "rows": 394486,
+            "sum_sha256": "0193ce801171b29d7a2933614c67c0e7aed077cf3fbf1d315a7090e82cd04144",
+            "numeric_round_digits": 6
+          },
+          "T-C3-2": {
+            "rows": 116044,
+            "sum_sha256": "d0ef611ac1eafb1675f72de6faaf7f99ed74a7fe95e315f452765b8ff9c8c7f7",
+            "numeric_round_digits": 6
+          },
+          "T-C3-3": {
+            "rows": 64774,
+            "sum_sha256": "6aedbe0338aa806ec85a36f3cd7adb0ab9fee77d5047b265c4556511b47e94bc",
+            "numeric_round_digits": 6
+          },
+          "T-C3-4": {
+            "rows": 107044,
+            "sum_sha256": "7c29fcad8973b8111cf985850489451c26b5ce882a0ef6d43bda63d84640deb3",
+            "numeric_round_digits": 6
+          },
+          "T-C4-1": {
+            "rows": 253399,
+            "sum_sha256": "5b12e285fde6bb4edee3e137905f2938c96a90591e544d4c2719373a7c45773f",
+            "numeric_round_digits": 6
+          },
+          "T-C4-2": {
+            "rows": 139340,
+            "sum_sha256": "0200f73ba575d94b9fded0d9f23112b9c509163bc8e48a2f802d5a8466087d44",
+            "numeric_round_digits": 6
+          },
+          "T-C4-3": {
+            "rows": 67716,
+            "sum_sha256": "0bdbf4f407d799b7cdb2c29ad8466d04826135d2d925ceb2f95fe2e3ddacfc36",
+            "numeric_round_digits": 6
+          },
+          "T-C4-4": {
+            "rows": 42611,
+            "sum_sha256": "e92caf58621316b4c32d1c96ceeacfff257d7a43b3cefaaa97659594440c61ce",
+            "numeric_round_digits": 6
+          },
+          "H-C1-1": {
+            "rows": 217683,
+            "sum_sha256": "bdf6d9abca0914bf20609bdb7a15964890dada5c27cd5b04d1c4dbf4faa75dee",
+            "numeric_round_digits": 6
+          },
+          "H-C1-2": {
+            "rows": 18400,
+            "sum_sha256": "c7b0adead2cd0912ac129340ed94a59810eb92c0517c7b21c2774162435d965a",
+            "numeric_round_digits": 6
+          },
+          "H-C1-3": {
+            "rows": 109378,
+            "sum_sha256": "02b34a0d0a3733ae80d93037d6a9dfa157924b128bb64aaf0aeaad5b784e402f",
+            "numeric_round_digits": 6
+          },
+          "H-C1-4": {
+            "rows": 40158,
+            "sum_sha256": "31c28f73f3910b89147108fab8f538f4f65867c57ed272fd40c361975875506d",
+            "numeric_round_digits": 6
+          },
+          "H-C2-1": {
+            "rows": 1375365,
+            "sum_sha256": "3f0f6bb8f91a1b31e874e9f771774a56c854b7344dd2aee9819b2b439853c8d5",
+            "numeric_round_digits": 6
+          },
+          "H-C2-2": {
+            "rows": 645527,
+            "sum_sha256": "64973ecd3742f995887c53bbf20ef5ce4941f14f9d60aecc8c0b9947727fabc7",
+            "numeric_round_digits": 6
+          },
+          "H-C2-3": {
+            "rows": 86624,
+            "sum_sha256": "377c0d3d0bf0154987766f20052fe96eb097fb1b77ec6c2eb76f151ba86164e5",
+            "numeric_round_digits": 6
+          },
+          "H-C2-4": {
+            "rows": 439881,
+            "sum_sha256": "2cb692620af474825b6783a5e744b2875d684252d6b8dc67b306575094453a74",
+            "numeric_round_digits": 6
+          },
+          "H-C3-1": {
+            "rows": 321073,
+            "sum_sha256": "77242dd79d48cd4162f3b99e6c97448d87ac4047b3bdecbea591e139e0992670",
+            "numeric_round_digits": 6
+          },
+          "H-C3-2": {
+            "rows": 148850,
+            "sum_sha256": "47c15f4428703e77bdedb169eb1d379e5e3b111a3153d73ff1b5bdcb44808485",
+            "numeric_round_digits": 6
+          },
+          "H-C3-3": {
+            "rows": 29960,
+            "sum_sha256": "31b932c23399d4ac814945b74c378e88687e387aaad9416a40763bbafc0a6583",
+            "numeric_round_digits": 6
+          },
+          "H-C3-4": {
+            "rows": 632579,
+            "sum_sha256": "bcbef3a050bd205a742d8b733286a21423608a192507e3d4a6b096533f727d8c",
+            "numeric_round_digits": 6
+          },
+          "H-C4-1": {
+            "rows": 1564864,
+            "sum_sha256": "85ab18d44b74bfd5136edda4b1abc525e16d279abce301a553b3c3805edd3b9f",
+            "numeric_round_digits": 6
+          },
+          "H-C4-2": {
+            "rows": 1388490,
+            "sum_sha256": "b016adb11f32a994dff8349e13ea46a4a2172699fa8c3eb0e92ba714b96d6f28",
+            "numeric_round_digits": 6
+          },
+          "H-C4-3": {
+            "rows": 633118,
+            "sum_sha256": "566b1f781566a2b301cb9ed403d448021153e6f190faf935200d19b95cd39e26",
+            "numeric_round_digits": 6
+          },
+          "H-C4-4": {
+            "rows": 386412,
+            "sum_sha256": "f11f89f6cccc177c84ebd36b77cb608b20560c0e9e3a6ec2f3d5273a65793f32",
+            "numeric_round_digits": 6
+          },
+          "O-C1-1": {
+            "rows": 926,
+            "sum_sha256": "bf9861cc2f90a04d60849e234a86d592b03e771abb5deb0532a9d371626a2e3d",
+            "numeric_round_digits": 6
+          },
+          "O-C1-2": {
+            "rows": 42897,
+            "sum_sha256": "78d76d4b24a63ee034becc90bda61033445c3bacc72e30b326748da00c4cd374",
+            "numeric_round_digits": 6
+          },
+          "O-C1-3": {
+            "rows": 842,
+            "sum_sha256": "4fef2030584577790561a26b76dc091307706b89d039af1ad9775077441e9fb0",
+            "numeric_round_digits": 6
+          },
+          "O-C1-4": {
+            "rows": 1609,
+            "sum_sha256": "ca81d863cfdfc0cbd6a7ba8347bdbc141330ae6f8a48dc41d0728dbec0499148",
+            "numeric_round_digits": 6
+          },
+          "O-C2-1": {
+            "rows": 28729,
+            "sum_sha256": "2671f10bf227d97b20e832d8ea81c4ec5c3a387e02314ac5a36db8b522ac1168",
+            "numeric_round_digits": 6
+          },
+          "O-C2-2": {
+            "rows": 3050,
+            "sum_sha256": "f7fbff4058529f95b73b95f99a2323d54ab494d4c60cdc913bfa039c3a05c637",
+            "numeric_round_digits": 6
+          },
+          "O-C2-3": {
+            "rows": 2994,
+            "sum_sha256": "7ffaf86f034581a36ca0730c93ba7d40e02e14e6383c5d7ff7b48eb87bedb3d6",
+            "numeric_round_digits": 6
+          },
+          "O-C2-4": {
+            "rows": 3022,
+            "sum_sha256": "9a6a77b874f4e063d6a94ef4714499b1535afca512a2c4e0634181ff6f370a76",
+            "numeric_round_digits": 6
+          },
+          "O-C3-1": {
+            "rows": 44143,
+            "sum_sha256": "96c6818460302f7c3862d7d64ef4277ba1ad14d1aacc4d8ef856175df390a77d",
+            "numeric_round_digits": 6
+          },
+          "O-C3-2": {
+            "rows": 1385,
+            "sum_sha256": "7963268b799f299182c55fda419e1343ee0db77316f1739e1f8ad86cd111b9bc",
+            "numeric_round_digits": 6
+          },
+          "O-C3-3": {
+            "rows": 1353,
+            "sum_sha256": "4c49c3a414b1e605ff301cd5c868160cee3155d213f12d040414e761c16c12e9",
+            "numeric_round_digits": 6
+          },
+          "O-C3-4": {
+            "rows": 2264,
+            "sum_sha256": "796d773edcde049305b5ab066ce4f643109f23ec4d2df709e4d03b2537471424",
+            "numeric_round_digits": 6
+          },
+          "O-C4-1": {
+            "rows": 2620,
+            "sum_sha256": "3949d13d23c059e1dfd2bdb88f16d387012ec23f65d6c80c72e3bbf1811b7c50",
+            "numeric_round_digits": 6
+          },
+          "O-C4-2": {
+            "rows": 944,
+            "sum_sha256": "64f660db04732e638478e729fa34444a09810ef0c6ec9c7ce6081395781f868a",
+            "numeric_round_digits": 6
+          },
+          "O-C4-3": {
+            "rows": 149,
+            "sum_sha256": "4abc4eab08735333928816a69e6379e80377dd284d52302c403e745808d935ee",
+            "numeric_round_digits": 6
+          },
+          "O-C4-4": {
+            "rows": 14213,
+            "sum_sha256": "97cb64be77fccf257f50c421df4f81ce0a1fdb3515bd8ae832d9a640f333fb12",
+            "numeric_round_digits": 6
+          }
+        }
+      }
+    }
+  },
+  "memory": {
+    "status": "complete",
+    "by_gib": {
+      "1": {
+        "status": "ok",
+        "queries": 4,
+        "common_successful_queries": [],
+        "summary": {
+          "specson": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 3873.261833,
+            "mean_64g_same_queries_ms": 773.79056725,
+            "slowdown_vs_64g": 5.005568686066198,
+            "mean_common_successful_ms": null
+          },
+          "specson-toast": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 6759.512004,
+            "mean_64g_same_queries_ms": 1591.7388675,
+            "slowdown_vs_64g": 4.246621190206,
+            "mean_common_successful_ms": null
+          },
+          "jsonb": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 13599.1438525,
+            "mean_64g_same_queries_ms": 5543.49708225,
+            "slowdown_vs_64g": 2.4531705619623714,
+            "mean_common_successful_ms": null
+          },
+          "pg-gin": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 23.02358525,
+            "mean_64g_same_queries_ms": 23.44042375,
+            "slowdown_vs_64g": 0.9822171090230397,
+            "mean_common_successful_ms": null
+          },
+          "umbra": {
+            "completed": 0,
+            "oom": [
+              "G-C1-1",
+              "G-C2-1",
+              "G-C3-1",
+              "G-C4-1"
+            ],
+            "mean_successful_ms": null,
+            "mean_64g_same_queries_ms": null,
+            "slowdown_vs_64g": null,
+            "mean_common_successful_ms": null
+          },
+          "mongodb": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 40988.13970925,
+            "mean_64g_same_queries_ms": 20855.15506725,
+            "slowdown_vs_64g": 1.9653720903574545,
+            "mean_common_successful_ms": null
+          },
+          "asterix": {
+            "completed": 0,
+            "oom": [
+              "G-C1-1",
+              "G-C2-1",
+              "G-C3-1",
+              "G-C4-1"
+            ],
+            "mean_successful_ms": null,
+            "mean_64g_same_queries_ms": null,
+            "slowdown_vs_64g": null,
+            "mean_common_successful_ms": null
+          }
+        },
+        "results": [
+          {
+            "query": "G-C1-1",
+            "median_ms": {
+              "specson": 3890.849321,
+              "specson-toast": 6753.327341,
+              "jsonb": 13589.750028,
+              "pg-gin": 70.523548,
+              "umbra": null,
+              "mongodb": 40976.021069,
+              "asterix": null
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "oom"
+            },
+            "reference_64g_ms": {
+              "specson": 782.758415,
+              "jsonb": 5521.022974,
+              "umbra": 551.254854,
+              "mongodb": 19539.952961,
+              "asterix": 12164.158588,
+              "specson-toast": 1605.677599,
+              "pg-gin": 74.416711
+            }
+          },
+          {
+            "query": "G-C2-1",
+            "median_ms": {
+              "specson": 3882.987903,
+              "specson-toast": 6762.787426,
+              "jsonb": 13639.525249,
+              "pg-gin": 8.321558,
+              "umbra": null,
+              "mongodb": 40853.580029,
+              "asterix": null
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "oom"
+            },
+            "reference_64g_ms": {
+              "specson": 768.096301,
+              "jsonb": 5540.440628,
+              "umbra": 561.044959,
+              "mongodb": 21670.342003,
+              "asterix": 12089.016355,
+              "specson-toast": 1576.901954,
+              "pg-gin": 6.717521
+            }
+          },
+          {
+            "query": "G-C3-1",
+            "median_ms": {
+              "specson": 3870.979647,
+              "specson-toast": 6759.308176,
+              "jsonb": 13594.866949,
+              "pg-gin": 1.763214,
+              "umbra": null,
+              "mongodb": 41112.874588,
+              "asterix": null
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "oom"
+            },
+            "reference_64g_ms": {
+              "specson": 768.699988,
+              "jsonb": 5533.899959,
+              "umbra": 568.746171,
+              "mongodb": 21502.273533,
+              "asterix": 11952.223576,
+              "specson-toast": 1584.342194,
+              "pg-gin": 1.522845
+            }
+          },
+          {
+            "query": "G-C4-1",
+            "median_ms": {
+              "specson": 3848.230461,
+              "specson-toast": 6762.625073,
+              "jsonb": 13572.433184,
+              "pg-gin": 11.486021,
+              "umbra": null,
+              "mongodb": 41010.083151,
+              "asterix": null
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "oom"
+            },
+            "reference_64g_ms": {
+              "specson": 775.607565,
+              "jsonb": 5578.624768,
+              "umbra": 587.293907,
+              "mongodb": 20708.051772,
+              "asterix": 15528.704812,
+              "specson-toast": 1600.033723,
+              "pg-gin": 11.104618
+            }
+          }
+        ],
+        "conditions": {
+          "specson": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 1073741824,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "d866ab45e4fb7c674efdb833e3d2aec43b4efd48243c3f1c6ff97c2869e3b4fe",
+            "io_settings": {
+              "effective_io_concurrency": "64",
+              "io_combine_limit": "128",
+              "io_max_combine_limit": "128",
+              "io_method": "worker",
+              "io_workers": "3"
+            }
+          },
+          "specson-toast": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 1073741824,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "d866ab45e4fb7c674efdb833e3d2aec43b4efd48243c3f1c6ff97c2869e3b4fe",
+            "io_settings": {
+              "effective_io_concurrency": "64",
+              "io_combine_limit": "128",
+              "io_max_combine_limit": "128",
+              "io_method": "worker",
+              "io_workers": "3"
+            }
+          },
+          "jsonb": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 1073741824,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "f53164c923beb6dc044090134e2d9cfa0adb7b7587e43318ddb1294903a7669b",
+            "io_settings": {}
+          },
+          "pg-gin": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 1073741824,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "f53164c923beb6dc044090134e2d9cfa0adb7b7587e43318ddb1294903a7669b",
+            "io_settings": {}
+          },
+          "umbra": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 1073741824,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "mongodb": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 1073741824,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "asterix": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 1073741824,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          }
+        }
+      },
+      "2": {
+        "status": "ok",
+        "queries": 4,
+        "common_successful_queries": [],
+        "summary": {
+          "specson": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 3872.94586,
+            "mean_64g_same_queries_ms": 773.79056725,
+            "slowdown_vs_64g": 5.005160341724236,
+            "mean_common_successful_ms": null
+          },
+          "specson-toast": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 6777.15506475,
+            "mean_64g_same_queries_ms": 1591.7388675,
+            "slowdown_vs_64g": 4.257705332906938,
+            "mean_common_successful_ms": null
+          },
+          "jsonb": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 13855.6690175,
+            "mean_64g_same_queries_ms": 5543.49708225,
+            "slowdown_vs_64g": 2.499445532652152,
+            "mean_common_successful_ms": null
+          },
+          "pg-gin": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 23.316307,
+            "mean_64g_same_queries_ms": 23.44042375,
+            "slowdown_vs_64g": 0.9947050125320366,
+            "mean_common_successful_ms": null
+          },
+          "umbra": {
+            "completed": 0,
+            "oom": [
+              "G-C1-1",
+              "G-C2-1",
+              "G-C3-1",
+              "G-C4-1"
+            ],
+            "mean_successful_ms": null,
+            "mean_64g_same_queries_ms": null,
+            "slowdown_vs_64g": null,
+            "mean_common_successful_ms": null
+          },
+          "mongodb": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 41127.832136749996,
+            "mean_64g_same_queries_ms": 20855.15506725,
+            "slowdown_vs_64g": 1.9720703108717372,
+            "mean_common_successful_ms": null
+          },
+          "asterix": {
+            "completed": 2,
+            "oom": [
+              "G-C3-1",
+              "G-C4-1"
+            ],
+            "mean_successful_ms": 14543.0120805,
+            "mean_64g_same_queries_ms": 12126.587471499999,
+            "slowdown_vs_64g": 1.1992666621734351,
+            "mean_common_successful_ms": null
+          }
+        },
+        "results": [
+          {
+            "query": "G-C1-1",
+            "median_ms": {
+              "specson": 3946.213534,
+              "specson-toast": 6767.573008,
+              "jsonb": 13801.03196,
+              "pg-gin": 72.98701,
+              "umbra": null,
+              "mongodb": 40973.75285,
+              "asterix": 14604.477198
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 782.758415,
+              "jsonb": 5521.022974,
+              "umbra": 551.254854,
+              "mongodb": 19539.952961,
+              "asterix": 12164.158588,
+              "specson-toast": 1605.677599,
+              "pg-gin": 74.416711
+            }
+          },
+          {
+            "query": "G-C2-1",
+            "median_ms": {
+              "specson": 3883.137171,
+              "specson-toast": 6765.46831,
+              "jsonb": 13767.976219,
+              "pg-gin": 7.360132,
+              "umbra": null,
+              "mongodb": 41031.376626,
+              "asterix": 14481.546963
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 768.096301,
+              "jsonb": 5540.440628,
+              "umbra": 561.044959,
+              "mongodb": 21670.342003,
+              "asterix": 12089.016355,
+              "specson-toast": 1576.901954,
+              "pg-gin": 6.717521
+            }
+          },
+          {
+            "query": "G-C3-1",
+            "median_ms": {
+              "specson": 3856.971664,
+              "specson-toast": 6761.013642,
+              "jsonb": 13804.019563,
+              "pg-gin": 1.417037,
+              "umbra": null,
+              "mongodb": 41257.406934,
+              "asterix": null
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "oom"
+            },
+            "reference_64g_ms": {
+              "specson": 768.699988,
+              "jsonb": 5533.899959,
+              "umbra": 568.746171,
+              "mongodb": 21502.273533,
+              "asterix": 11952.223576,
+              "specson-toast": 1584.342194,
+              "pg-gin": 1.522845
+            }
+          },
+          {
+            "query": "G-C4-1",
+            "median_ms": {
+              "specson": 3805.461071,
+              "specson-toast": 6814.565299,
+              "jsonb": 14049.648328,
+              "pg-gin": 11.501049,
+              "umbra": null,
+              "mongodb": 41248.792137,
+              "asterix": null
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "oom"
+            },
+            "reference_64g_ms": {
+              "specson": 775.607565,
+              "jsonb": 5578.624768,
+              "umbra": 587.293907,
+              "mongodb": 20708.051772,
+              "asterix": 15528.704812,
+              "specson-toast": 1600.033723,
+              "pg-gin": 11.104618
+            }
+          }
+        ],
+        "conditions": {
+          "specson": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 2147483648,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "d866ab45e4fb7c674efdb833e3d2aec43b4efd48243c3f1c6ff97c2869e3b4fe",
+            "io_settings": {
+              "effective_io_concurrency": "64",
+              "io_combine_limit": "128",
+              "io_max_combine_limit": "128",
+              "io_method": "worker",
+              "io_workers": "3"
+            }
+          },
+          "specson-toast": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 2147483648,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "d866ab45e4fb7c674efdb833e3d2aec43b4efd48243c3f1c6ff97c2869e3b4fe",
+            "io_settings": {
+              "effective_io_concurrency": "64",
+              "io_combine_limit": "128",
+              "io_max_combine_limit": "128",
+              "io_method": "worker",
+              "io_workers": "3"
+            }
+          },
+          "jsonb": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 2147483648,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "bf99488903d53759d63dce7581a44440fa203c6aeda4daff5d3a538f21957573",
+            "io_settings": {}
+          },
+          "pg-gin": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 2147483648,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "f53164c923beb6dc044090134e2d9cfa0adb7b7587e43318ddb1294903a7669b",
+            "io_settings": {}
+          },
+          "umbra": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 2147483648,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "mongodb": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 2147483648,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "asterix": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 2147483648,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          }
+        }
+      },
+      "4": {
+        "status": "ok",
+        "queries": 4,
+        "common_successful_queries": [],
+        "summary": {
+          "specson": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 3782.2761345,
+            "mean_64g_same_queries_ms": 773.79056725,
+            "slowdown_vs_64g": 4.887984287456432,
+            "mean_common_successful_ms": null
+          },
+          "specson-toast": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 6784.4162405,
+            "mean_64g_same_queries_ms": 1591.7388675,
+            "slowdown_vs_64g": 4.2622671212117025,
+            "mean_common_successful_ms": null
+          },
+          "jsonb": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 13772.01073675,
+            "mean_64g_same_queries_ms": 5543.49708225,
+            "slowdown_vs_64g": 2.4843542861864742,
+            "mean_common_successful_ms": null
+          },
+          "pg-gin": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 23.20926475,
+            "mean_64g_same_queries_ms": 23.44042375,
+            "slowdown_vs_64g": 0.9901384461959651,
+            "mean_common_successful_ms": null
+          },
+          "umbra": {
+            "completed": 0,
+            "oom": [
+              "G-C1-1",
+              "G-C2-1",
+              "G-C3-1",
+              "G-C4-1"
+            ],
+            "mean_successful_ms": null,
+            "mean_64g_same_queries_ms": null,
+            "slowdown_vs_64g": null,
+            "mean_common_successful_ms": null
+          },
+          "mongodb": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 40252.161976250005,
+            "mean_64g_same_queries_ms": 20855.15506725,
+            "slowdown_vs_64g": 1.93008212341035,
+            "mean_common_successful_ms": null
+          },
+          "asterix": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 15316.7801105,
+            "mean_64g_same_queries_ms": 12933.52583275,
+            "slowdown_vs_64g": 1.1842694953077044,
+            "mean_common_successful_ms": null
+          }
+        },
+        "results": [
+          {
+            "query": "G-C1-1",
+            "median_ms": {
+              "specson": 3927.684325,
+              "specson-toast": 6785.072244,
+              "jsonb": 13757.740895,
+              "pg-gin": 72.614053,
+              "umbra": null,
+              "mongodb": 40348.335443,
+              "asterix": 14502.286152
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 782.758415,
+              "jsonb": 5521.022974,
+              "umbra": 551.254854,
+              "mongodb": 19539.952961,
+              "asterix": 12164.158588,
+              "specson-toast": 1605.677599,
+              "pg-gin": 74.416711
+            }
+          },
+          {
+            "query": "G-C2-1",
+            "median_ms": {
+              "specson": 3835.597027,
+              "specson-toast": 6786.813928,
+              "jsonb": 13781.144843,
+              "pg-gin": 7.43383,
+              "umbra": null,
+              "mongodb": 40289.522496,
+              "asterix": 14395.278979
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 768.096301,
+              "jsonb": 5540.440628,
+              "umbra": 561.044959,
+              "mongodb": 21670.342003,
+              "asterix": 12089.016355,
+              "specson-toast": 1576.901954,
+              "pg-gin": 6.717521
+            }
+          },
+          {
+            "query": "G-C3-1",
+            "median_ms": {
+              "specson": 3725.914906,
+              "specson-toast": 6774.089844,
+              "jsonb": 13765.644131,
+              "pg-gin": 2.014003,
+              "umbra": null,
+              "mongodb": 40200.313988,
+              "asterix": 14421.105213
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 768.699988,
+              "jsonb": 5533.899959,
+              "umbra": 568.746171,
+              "mongodb": 21502.273533,
+              "asterix": 11952.223576,
+              "specson-toast": 1584.342194,
+              "pg-gin": 1.522845
+            }
+          },
+          {
+            "query": "G-C4-1",
+            "median_ms": {
+              "specson": 3639.90828,
+              "specson-toast": 6791.688946,
+              "jsonb": 13783.513078,
+              "pg-gin": 10.775173,
+              "umbra": null,
+              "mongodb": 40170.475978,
+              "asterix": 17948.450098
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 775.607565,
+              "jsonb": 5578.624768,
+              "umbra": 587.293907,
+              "mongodb": 20708.051772,
+              "asterix": 15528.704812,
+              "specson-toast": 1600.033723,
+              "pg-gin": 11.104618
+            }
+          }
+        ],
+        "conditions": {
+          "specson": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 4294967296,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "d866ab45e4fb7c674efdb833e3d2aec43b4efd48243c3f1c6ff97c2869e3b4fe",
+            "io_settings": {
+              "effective_io_concurrency": "64",
+              "io_combine_limit": "128",
+              "io_max_combine_limit": "128",
+              "io_method": "worker",
+              "io_workers": "3"
+            }
+          },
+          "specson-toast": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 4294967296,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "d866ab45e4fb7c674efdb833e3d2aec43b4efd48243c3f1c6ff97c2869e3b4fe",
+            "io_settings": {
+              "effective_io_concurrency": "64",
+              "io_combine_limit": "128",
+              "io_max_combine_limit": "128",
+              "io_method": "worker",
+              "io_workers": "3"
+            }
+          },
+          "jsonb": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 4294967296,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "7581c9006eee3e223c428b110664ddf3b3e06ed0594347fbe5000428c49d3a6e",
+            "io_settings": {}
+          },
+          "pg-gin": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 4294967296,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "7581c9006eee3e223c428b110664ddf3b3e06ed0594347fbe5000428c49d3a6e",
+            "io_settings": {}
+          },
+          "umbra": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 4294967296,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "mongodb": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 4294967296,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "asterix": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 4294967296,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          }
+        }
+      },
+      "8": {
+        "status": "ok",
+        "queries": 4,
+        "common_successful_queries": [],
+        "summary": {
+          "specson": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 2981.520971,
+            "mean_64g_same_queries_ms": 773.79056725,
+            "slowdown_vs_64g": 3.853136878620951,
+            "mean_common_successful_ms": null
+          },
+          "specson-toast": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 6757.351367,
+            "mean_64g_same_queries_ms": 1591.7388675,
+            "slowdown_vs_64g": 4.245263783508133,
+            "mean_common_successful_ms": null
+          },
+          "jsonb": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 13805.7689755,
+            "mean_64g_same_queries_ms": 5543.49708225,
+            "slowdown_vs_64g": 2.4904439870105426,
+            "mean_common_successful_ms": null
+          },
+          "pg-gin": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 23.704469500000002,
+            "mean_64g_same_queries_ms": 23.44042375,
+            "slowdown_vs_64g": 1.0112645467853372,
+            "mean_common_successful_ms": null
+          },
+          "umbra": {
+            "completed": 0,
+            "oom": [
+              "G-C1-1",
+              "G-C2-1",
+              "G-C3-1",
+              "G-C4-1"
+            ],
+            "mean_successful_ms": null,
+            "mean_64g_same_queries_ms": null,
+            "slowdown_vs_64g": null,
+            "mean_common_successful_ms": null
+          },
+          "mongodb": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 40124.32230925,
+            "mean_64g_same_queries_ms": 20855.15506725,
+            "slowdown_vs_64g": 1.9239522400991125,
+            "mean_common_successful_ms": null
+          },
+          "asterix": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 15157.95028825,
+            "mean_64g_same_queries_ms": 12933.52583275,
+            "slowdown_vs_64g": 1.1719890217304365,
+            "mean_common_successful_ms": null
+          }
+        },
+        "results": [
+          {
+            "query": "G-C1-1",
+            "median_ms": {
+              "specson": 3243.10658,
+              "specson-toast": 6760.856448,
+              "jsonb": 13809.414412,
+              "pg-gin": 75.602867,
+              "umbra": null,
+              "mongodb": 40074.130816,
+              "asterix": 14346.007159
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 782.758415,
+              "jsonb": 5521.022974,
+              "umbra": 551.254854,
+              "mongodb": 19539.952961,
+              "asterix": 12164.158588,
+              "specson-toast": 1605.677599,
+              "pg-gin": 74.416711
+            }
+          },
+          {
+            "query": "G-C2-1",
+            "median_ms": {
+              "specson": 3047.42123,
+              "specson-toast": 6762.455075,
+              "jsonb": 13799.669554,
+              "pg-gin": 6.098965,
+              "umbra": null,
+              "mongodb": 40125.014868,
+              "asterix": 14311.939476
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 768.096301,
+              "jsonb": 5540.440628,
+              "umbra": 561.044959,
+              "mongodb": 21670.342003,
+              "asterix": 12089.016355,
+              "specson-toast": 1576.901954,
+              "pg-gin": 6.717521
+            }
+          },
+          {
+            "query": "G-C3-1",
+            "median_ms": {
+              "specson": 2898.632782,
+              "specson-toast": 6752.815445,
+              "jsonb": 13807.286987,
+              "pg-gin": 2.116084,
+              "umbra": null,
+              "mongodb": 40102.273398,
+              "asterix": 14395.051383
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 768.699988,
+              "jsonb": 5533.899959,
+              "umbra": 568.746171,
+              "mongodb": 21502.273533,
+              "asterix": 11952.223576,
+              "specson-toast": 1584.342194,
+              "pg-gin": 1.522845
+            }
+          },
+          {
+            "query": "G-C4-1",
+            "median_ms": {
+              "specson": 2736.923292,
+              "specson-toast": 6753.2785,
+              "jsonb": 13806.704949,
+              "pg-gin": 10.999962,
+              "umbra": null,
+              "mongodb": 40195.870155,
+              "asterix": 17578.803135
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 775.607565,
+              "jsonb": 5578.624768,
+              "umbra": 587.293907,
+              "mongodb": 20708.051772,
+              "asterix": 15528.704812,
+              "specson-toast": 1600.033723,
+              "pg-gin": 11.104618
+            }
+          }
+        ],
+        "conditions": {
+          "specson": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 8589934592,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "d866ab45e4fb7c674efdb833e3d2aec43b4efd48243c3f1c6ff97c2869e3b4fe",
+            "io_settings": {
+              "effective_io_concurrency": "64",
+              "io_combine_limit": "128",
+              "io_max_combine_limit": "128",
+              "io_method": "worker",
+              "io_workers": "3"
+            }
+          },
+          "specson-toast": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 8589934592,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "d866ab45e4fb7c674efdb833e3d2aec43b4efd48243c3f1c6ff97c2869e3b4fe",
+            "io_settings": {
+              "effective_io_concurrency": "64",
+              "io_combine_limit": "128",
+              "io_max_combine_limit": "128",
+              "io_method": "worker",
+              "io_workers": "3"
+            }
+          },
+          "jsonb": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 8589934592,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "7581c9006eee3e223c428b110664ddf3b3e06ed0594347fbe5000428c49d3a6e",
+            "io_settings": {}
+          },
+          "pg-gin": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 8589934592,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "7581c9006eee3e223c428b110664ddf3b3e06ed0594347fbe5000428c49d3a6e",
+            "io_settings": {}
+          },
+          "umbra": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 8589934592,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "mongodb": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 8589934592,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "asterix": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 8589934592,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          }
+        }
+      },
+      "16": {
+        "status": "ok",
+        "queries": 4,
+        "common_successful_queries": [],
+        "summary": {
+          "specson": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 494.1398825,
+            "mean_64g_same_queries_ms": 773.79056725,
+            "slowdown_vs_64g": 0.6385964153790865,
+            "mean_common_successful_ms": null
+          },
+          "specson-toast": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 5173.11990175,
+            "mean_64g_same_queries_ms": 1591.7388675,
+            "slowdown_vs_64g": 3.249980262073358,
+            "mean_common_successful_ms": null
+          },
+          "jsonb": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 13899.542288249999,
+            "mean_64g_same_queries_ms": 5543.49708225,
+            "slowdown_vs_64g": 2.5073598997202753,
+            "mean_common_successful_ms": null
+          },
+          "pg-gin": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 22.771373999999998,
+            "mean_64g_same_queries_ms": 23.44042375,
+            "slowdown_vs_64g": 0.9714574379228105,
+            "mean_common_successful_ms": null
+          },
+          "umbra": {
+            "completed": 0,
+            "oom": [
+              "G-C1-1",
+              "G-C2-1",
+              "G-C3-1",
+              "G-C4-1"
+            ],
+            "mean_successful_ms": null,
+            "mean_64g_same_queries_ms": null,
+            "slowdown_vs_64g": null,
+            "mean_common_successful_ms": null
+          },
+          "mongodb": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 40033.710682000004,
+            "mean_64g_same_queries_ms": 20855.15506725,
+            "slowdown_vs_64g": 1.919607432929959,
+            "mean_common_successful_ms": null
+          },
+          "asterix": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 15179.60461475,
+            "mean_64g_same_queries_ms": 12933.52583275,
+            "slowdown_vs_64g": 1.1736633004058745,
+            "mean_common_successful_ms": null
+          }
+        },
+        "results": [
+          {
+            "query": "G-C1-1",
+            "median_ms": {
+              "specson": 497.040847,
+              "specson-toast": 5276.151758,
+              "jsonb": 13896.378407,
+              "pg-gin": 73.733655,
+              "umbra": null,
+              "mongodb": 40081.228087,
+              "asterix": 14398.06805
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 782.758415,
+              "jsonb": 5521.022974,
+              "umbra": 551.254854,
+              "mongodb": 19539.952961,
+              "asterix": 12164.158588,
+              "specson-toast": 1605.677599,
+              "pg-gin": 74.416711
+            }
+          },
+          {
+            "query": "G-C2-1",
+            "median_ms": {
+              "specson": 491.657129,
+              "specson-toast": 5075.006024,
+              "jsonb": 13888.938997,
+              "pg-gin": 5.640519,
+              "umbra": null,
+              "mongodb": 39984.705372,
+              "asterix": 14326.261786
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 768.096301,
+              "jsonb": 5540.440628,
+              "umbra": 561.044959,
+              "mongodb": 21670.342003,
+              "asterix": 12089.016355,
+              "specson-toast": 1576.901954,
+              "pg-gin": 6.717521
+            }
+          },
+          {
+            "query": "G-C3-1",
+            "median_ms": {
+              "specson": 492.459488,
+              "specson-toast": 5167.941827,
+              "jsonb": 13904.719782,
+              "pg-gin": 1.506976,
+              "umbra": null,
+              "mongodb": 40013.224708,
+              "asterix": 14398.808142
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 768.699988,
+              "jsonb": 5533.899959,
+              "umbra": 568.746171,
+              "mongodb": 21502.273533,
+              "asterix": 11952.223576,
+              "specson-toast": 1584.342194,
+              "pg-gin": 1.522845
+            }
+          },
+          {
+            "query": "G-C4-1",
+            "median_ms": {
+              "specson": 495.402066,
+              "specson-toast": 5173.379998,
+              "jsonb": 13908.131967,
+              "pg-gin": 10.204346,
+              "umbra": null,
+              "mongodb": 40055.684561,
+              "asterix": 17595.280481
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 775.607565,
+              "jsonb": 5578.624768,
+              "umbra": 587.293907,
+              "mongodb": 20708.051772,
+              "asterix": 15528.704812,
+              "specson-toast": 1600.033723,
+              "pg-gin": 11.104618
+            }
+          }
+        ],
+        "conditions": {
+          "specson": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 17179869184,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "d866ab45e4fb7c674efdb833e3d2aec43b4efd48243c3f1c6ff97c2869e3b4fe",
+            "io_settings": {
+              "effective_io_concurrency": "64",
+              "io_combine_limit": "128",
+              "io_max_combine_limit": "128",
+              "io_method": "worker",
+              "io_workers": "3"
+            }
+          },
+          "specson-toast": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 17179869184,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "d866ab45e4fb7c674efdb833e3d2aec43b4efd48243c3f1c6ff97c2869e3b4fe",
+            "io_settings": {
+              "effective_io_concurrency": "64",
+              "io_combine_limit": "128",
+              "io_max_combine_limit": "128",
+              "io_method": "worker",
+              "io_workers": "3"
+            }
+          },
+          "jsonb": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 17179869184,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "7581c9006eee3e223c428b110664ddf3b3e06ed0594347fbe5000428c49d3a6e",
+            "io_settings": {}
+          },
+          "pg-gin": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 17179869184,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "7581c9006eee3e223c428b110664ddf3b3e06ed0594347fbe5000428c49d3a6e",
+            "io_settings": {}
+          },
+          "umbra": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 17179869184,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "mongodb": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 17179869184,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "asterix": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 17179869184,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          }
+        }
+      },
+      "32": {
+        "status": "ok",
+        "queries": 4,
+        "common_successful_queries": [],
+        "summary": {
+          "specson": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 485.917036,
+            "mean_64g_same_queries_ms": 773.79056725,
+            "slowdown_vs_64g": 0.6279697072644821,
+            "mean_common_successful_ms": null
+          },
+          "specson-toast": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 1487.864983,
+            "mean_64g_same_queries_ms": 1591.7388675,
+            "slowdown_vs_64g": 0.9347418809574304,
+            "mean_common_successful_ms": null
+          },
+          "jsonb": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 14034.30335025,
+            "mean_64g_same_queries_ms": 5543.49708225,
+            "slowdown_vs_64g": 2.5316696558183707,
+            "mean_common_successful_ms": null
+          },
+          "pg-gin": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 24.46964425,
+            "mean_64g_same_queries_ms": 23.44042375,
+            "slowdown_vs_64g": 1.0439079306320134,
+            "mean_common_successful_ms": null
+          },
+          "umbra": {
+            "completed": 0,
+            "oom": [
+              "G-C1-1",
+              "G-C2-1",
+              "G-C3-1",
+              "G-C4-1"
+            ],
+            "mean_successful_ms": null,
+            "mean_64g_same_queries_ms": null,
+            "slowdown_vs_64g": null,
+            "mean_common_successful_ms": null
+          },
+          "mongodb": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 37921.10760775,
+            "mean_64g_same_queries_ms": 20855.15506725,
+            "slowdown_vs_64g": 1.81830859015283,
+            "mean_common_successful_ms": null
+          },
+          "asterix": {
+            "completed": 4,
+            "oom": [],
+            "mean_successful_ms": 15140.724243,
+            "mean_64g_same_queries_ms": 12933.52583275,
+            "slowdown_vs_64g": 1.1706571308390616,
+            "mean_common_successful_ms": null
+          }
+        },
+        "results": [
+          {
+            "query": "G-C1-1",
+            "median_ms": {
+              "specson": 486.335696,
+              "specson-toast": 1523.460743,
+              "jsonb": 13996.04774,
+              "pg-gin": 79.455195,
+              "umbra": null,
+              "mongodb": 31549.43638,
+              "asterix": 14436.528209
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 782.758415,
+              "jsonb": 5521.022974,
+              "umbra": 551.254854,
+              "mongodb": 19539.952961,
+              "asterix": 12164.158588,
+              "specson-toast": 1605.677599,
+              "pg-gin": 74.416711
+            }
+          },
+          {
+            "query": "G-C2-1",
+            "median_ms": {
+              "specson": 487.300979,
+              "specson-toast": 1472.225064,
+              "jsonb": 14006.356191,
+              "pg-gin": 5.586909,
+              "umbra": null,
+              "mongodb": 40068.680812,
+              "asterix": 14285.220304
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 768.096301,
+              "jsonb": 5540.440628,
+              "umbra": 561.044959,
+              "mongodb": 21670.342003,
+              "asterix": 12089.016355,
+              "specson-toast": 1576.901954,
+              "pg-gin": 6.717521
+            }
+          },
+          {
+            "query": "G-C3-1",
+            "median_ms": {
+              "specson": 483.531426,
+              "specson-toast": 1474.53525,
+              "jsonb": 14028.063309,
+              "pg-gin": 2.080266,
+              "umbra": null,
+              "mongodb": 39985.366608,
+              "asterix": 14335.554549
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 768.699988,
+              "jsonb": 5533.899959,
+              "umbra": 568.746171,
+              "mongodb": 21502.273533,
+              "asterix": 11952.223576,
+              "specson-toast": 1584.342194,
+              "pg-gin": 1.522845
+            }
+          },
+          {
+            "query": "G-C4-1",
+            "median_ms": {
+              "specson": 486.500043,
+              "specson-toast": 1481.238875,
+              "jsonb": 14106.746161,
+              "pg-gin": 10.756207,
+              "umbra": null,
+              "mongodb": 40080.946631,
+              "asterix": 17505.59391
+            },
+            "status": {
+              "specson": "ok",
+              "specson-toast": "ok",
+              "jsonb": "ok",
+              "pg-gin": "ok",
+              "umbra": "oom",
+              "mongodb": "ok",
+              "asterix": "ok"
+            },
+            "reference_64g_ms": {
+              "specson": 775.607565,
+              "jsonb": 5578.624768,
+              "umbra": 587.293907,
+              "mongodb": 20708.051772,
+              "asterix": 15528.704812,
+              "specson-toast": 1600.033723,
+              "pg-gin": 11.104618
+            }
+          }
+        ],
+        "conditions": {
+          "specson": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 34359738368,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "d866ab45e4fb7c674efdb833e3d2aec43b4efd48243c3f1c6ff97c2869e3b4fe",
+            "io_settings": {
+              "effective_io_concurrency": "64",
+              "io_combine_limit": "128",
+              "io_max_combine_limit": "128",
+              "io_method": "worker",
+              "io_workers": "3"
+            }
+          },
+          "specson-toast": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 34359738368,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "d866ab45e4fb7c674efdb833e3d2aec43b4efd48243c3f1c6ff97c2869e3b4fe",
+            "io_settings": {
+              "effective_io_concurrency": "64",
+              "io_combine_limit": "128",
+              "io_max_combine_limit": "128",
+              "io_method": "worker",
+              "io_workers": "3"
+            }
+          },
+          "jsonb": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 34359738368,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "7581c9006eee3e223c428b110664ddf3b3e06ed0594347fbe5000428c49d3a6e",
+            "io_settings": {}
+          },
+          "pg-gin": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 34359738368,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "postgres_sha256": "7581c9006eee3e223c428b110664ddf3b3e06ed0594347fbe5000428c49d3a6e",
+            "io_settings": {}
+          },
+          "umbra": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 34359738368,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "mongodb": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 34359738368,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "asterix": {
+            "warmups": 1,
+            "runs": 3,
+            "memory_limit_bytes": 34359738368,
+            "backend_cpus": [
+              4,
+              5,
+              6,
+              7
+            ]
+          }
+        }
+      }
+    },
+    "reference_gib": 64
+  },
+  "updates": {
+    "status": "ok",
+    "updated_rows": 1000000,
+    "results": [
+      {
+        "system": "specson",
+        "label": "SpecSON",
+        "seconds": 100.799611007,
+        "before_bytes": 20868448256,
+        "after_bytes": 24823021568,
+        "reclaimed_bytes": 23488544768
+      },
+      {
+        "system": "specson-toast",
+        "label": "SpecSON-TOAST",
+        "seconds": 101.043015939,
+        "before_bytes": 20614119424,
+        "after_bytes": 24430149632,
+        "reclaimed_bytes": 23631912960
+      },
+      {
+        "system": "jsonb",
+        "label": "\\texttt{jsonb}",
+        "seconds": 131.91431279699998,
+        "before_bytes": 31621537792,
+        "after_bytes": 36998569984,
+        "reclaimed_bytes": 36123451392
+      },
+      {
+        "system": "umbra",
+        "label": "Umbra",
+        "seconds": 147.970373957,
+        "before_bytes": 42919153664,
+        "after_bytes": 55239757824,
+        "reclaimed_bytes": 55470264320
+      },
+      {
+        "system": "mongodb",
+        "label": "MongoDB",
+        "seconds": 128.380662016,
+        "before_bytes": 19679588352,
+        "after_bytes": 22485573632,
+        "reclaimed_bytes": 22485508096
+      },
+      {
+        "system": "asterix",
+        "label": "AsterixDB",
+        "seconds": 696.006351698,
+        "before_bytes": 24513436848,
+        "after_bytes": 29447344380,
+        "reclaimed_bytes": 28141672818
+      }
+    ]
+  }
+}

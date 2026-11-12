@@ -1,0 +1,18 @@
+{
+  "schemas": 100000,
+  "documents": 100000,
+  "fields_per_schema": 937,
+  "field_name_first": "000000001",
+  "field_name_last": "093700000",
+  "seed": 20261015,
+  "source_schema": "../github/schema.json",
+  "source_documents": "../github/data/2026-06-26-0.jsonl",
+  "selection": "first count source documents; shuffled schema assignment; one document per schema",
+  "repeated_union_paths_share_name": true,
+  "replace_nul": true,
+  "files": {
+    "schemas.jsonl": 9787100000,
+    "mixed.jsonl": 84918593
+  },
+  "generation_seconds": 69.2944388390024
+}

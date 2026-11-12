@@ -1,0 +1,1 @@
+{"collection":"{{table}}","restore":true}
